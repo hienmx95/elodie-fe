@@ -243,6 +243,7 @@
            arrows: true,
            infinite: true,
            autoplay: true,
+           pauseOnHover:false,
            responsive: [
                 {
                     //breakpoint: 1399,
