@@ -35,7 +35,6 @@ class SliderV3 extends Component {
                     </div>
                   </div>
                 </div>
-                <a className="btn btn-video" href="#"><i className="fa fa-play" /> Play</a>
                 <div className="row d-flex">
                   <div className="col-md-7 align-self-center">
                     <div className="content">
