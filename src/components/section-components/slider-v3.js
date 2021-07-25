@@ -25,8 +25,7 @@ class SliderV3 extends Component {
                         </div>
                         <div className="btn-wrapper">
                           {/* <a className="btn btn-video" href="#"><i className="fa fa-play" /> Play</a> */}
-                          <a href="#" className="btn btn-video-2 video-btn-style-03 "><i className="fa fa-play" /> Play</a>
-                          
+                          <a href="#" className="video-btn-style-03"><i className="fa fa-play" /></a>
                         </div>
                       </div>
                     </div>
