@@ -244,6 +244,9 @@
            infinite: true,
            autoplay: true,
            pauseOnHover:false,
+           pauseOnFocus: false,
+           swipe : false,
+           //autoplaySpeed: 2000,
            responsive: [
                 {
                     //breakpoint: 1399,
