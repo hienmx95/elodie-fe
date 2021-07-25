@@ -39,7 +39,7 @@ class SliderV3 extends Component {
                   <div className="col-md-7 align-self-center">
                     <div className="content">
                       <h2> Blooming Orchid</h2>
-                      <h4>GET THE RIGHT LOOK FOR EVERY OCCASION</h4>
+                      <h4>Songs of spring</h4>
                       <div className="d-flex">
                         <div className="btn-wrapper">
                           <Link className="btn btn-black" to="/collection-full">SHOP NOW</Link>
