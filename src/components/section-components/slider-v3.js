@@ -18,7 +18,7 @@ class SliderV3 extends Component {
                   <div className="col-md-7 align-self-center">
                     <div className="content">
                       <h2> Hinoki & Bamboo</h2>
-                      <h4>LỒNG LÀN LẾN LỪNG LÚT LÂY</h4>
+                      <h4>NỒNG NÀN ĐẾN TỪNG PHÚT GIÂY</h4>
                       <div className="d-flex">
                         <div className="btn-wrapper stone-go-top">
                           <Link className="btn btn-black" to="/collection-full">SHOP NOW</Link>

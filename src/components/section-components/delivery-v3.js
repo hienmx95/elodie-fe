@@ -18,7 +18,7 @@ class DeliveryV3 extends Component {
                 <div className="col-lg-4">
                   <div className="single-delivery-02 d-flex grey-bg justify-content-center border-0 py-4">
                     <div className="left">
-                      <i className="icon-delivery-car red-icon" />
+                      <i className="icon-delivery-car matcha-icon" />
                     </div>
                     <div className="right">
                       <h6>FREE SHIPPING, RETURN</h6>
@@ -29,7 +29,7 @@ class DeliveryV3 extends Component {
                 <div className="col-lg-4">
                   <div className="single-delivery-02 d-flex grey-bg justify-content-center border-0 py-4">
                     <div className="left">
-                      <i className="icon-money-back red-icon" />
+                      <i className="icon-money-back matcha-icon" />
                     </div>
                     <div className="right">
                       <h6>MONEY BACK GUARANTEE</h6>
@@ -40,7 +40,7 @@ class DeliveryV3 extends Component {
                 <div className="col-lg-4">
                   <div className="single-delivery-02 d-flex grey-bg justify-content-center border-0 py-4">
                     <div className="left">
-                      <i className="icon-phone-support red-iconv " />
+                      <i className="icon-phone-support matcha-icon" />
                     </div>
                     <div className="right">
                       <h6>0986-279-928</h6>

@@ -22,7 +22,7 @@ const Home_V2 = () => {
         <TrendingV2 />
         <Video />
         <SubscriberV2 />
-        <BrandV2 />
+        {/* <BrandV2 /> */}
         <LatestArticleV3 />
         <Instagram />
         <Footer customclass="margin-top-80" />

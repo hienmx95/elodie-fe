@@ -20,13 +20,13 @@ class TrendingV2 extends Component {
                 <h3>TRENDING</h3>
               </div>
             </div>
-            <div className="col-lg-8">
+            {/* <div className="col-lg-8">
               <ul className="nav nav-pills collection-tab-02">
                 <li><a data-toggle="pill" href="#hot" className="active">All</a></li>
                 <li><a data-toggle="pill" href="#best">Women</a></li>
                 <li><a data-toggle="pill" href="#sale">Man</a></li>
               </ul>
-            </div>
+            </div> */}
           </div>
           <div className="tab-content">
             <div className="tab-pane fade in show active" id="hot">
@@ -34,7 +34,7 @@ class TrendingV2 extends Component {
                 <div className="col-lg-4 col-md-6 col-sm-6 col-12">
                   <div className="product-style-05 margin-top-40">
                     <div className="thumb">
-                      <img src={publicUrl+"assets/img/arrival/8.png"} alt="" />
+                      <img src={publicUrl+"assets/img/arrival/t1.png"} alt="" />
                       <span className="out">SOLD OUT</span>
                       <ul className="cart-action-02">
                         <li><a href="#"><i className="icon-heart" /></a></li>
@@ -58,7 +58,7 @@ class TrendingV2 extends Component {
                 <div className="col-lg-4 col-md-6 col-sm-6 col-12">
                   <div className="product-style-05 margin-top-40">
                     <div className="thumb">
-                      <img src={publicUrl+"assets/img/arrival/3.png"} alt="" />
+                      <img src={publicUrl+"assets/img/arrival/t1.png"} alt="" />
                       <span className="sale">SALE 13%</span>
                       <ul className="cart-action-02">
                         <li><a href="#"><i className="icon-heart" /></a></li>
@@ -82,7 +82,7 @@ class TrendingV2 extends Component {
                 <div className="col-lg-4 col-md-6 col-sm-6 col-12">
                   <div className="product-style-05 margin-top-40">
                     <div className="thumb">
-                      <img src={publicUrl+"assets/img/arrival/13.png"} alt="" />
+                      <img src={publicUrl+"assets/img/arrival/t1.png"} alt="" />
                       <span className="sale">SALE 13%</span>
                       <span className="new margin-top-35">NEW</span>
                       <ul className="cart-action-02">
@@ -111,7 +111,7 @@ class TrendingV2 extends Component {
                 <div className="col-lg-4 col-md-6 col-sm-6 col-12">
                   <div className="product-style-05 margin-top-40">
                     <div className="thumb">
-                      <img src={publicUrl+"assets/img/arrival/1.png"} alt="" />
+                      <img src={publicUrl+"assets/img/arrival/t1.png"} alt="" />
                       <span className="out">SOLD OUT</span>
                       <ul className="cart-action-02">
                         <li><a href="#"><i className="icon-heart" /></a></li>
@@ -135,7 +135,7 @@ class TrendingV2 extends Component {
                 <div className="col-lg-4 col-md-6 col-sm-6 col-12">
                   <div className="product-style-05 margin-top-40">
                     <div className="thumb">
-                      <img src={publicUrl+"assets/img/arrival/3.png"} alt="" />
+                      <img src={publicUrl+"assets/img/arrival/t1.png"} alt="" />
                       <span className="out">SOLD OUT</span>
                       <ul className="cart-action-02">
                         <li><a href="#"><i className="icon-heart" /></a></li>
@@ -159,7 +159,7 @@ class TrendingV2 extends Component {
                 <div className="col-lg-4 col-md-6 col-sm-6 col-12">
                   <div className="product-style-05 margin-top-40">
                     <div className="thumb">
-                      <img src={publicUrl+"assets/img/arrival/13.png"} alt="" />
+                      <img src={publicUrl+"assets/img/arrival/t1.png"} alt="" />
                       <span className="out">SOLD OUT</span>
                       <ul className="cart-action-02">
                         <li><a href="#"><i className="icon-heart" /></a></li>
@@ -187,7 +187,7 @@ class TrendingV2 extends Component {
                 <div className="col-lg-4 col-md-6 col-sm-6 col-12">
                   <div className="product-style-05 margin-top-40">
                     <div className="thumb">
-                      <img src={publicUrl+"assets/img/arrival/8.png"} alt="" />
+                      <img src={publicUrl+"assets/img/arrival/t1.png"} alt="" />
                       <span className="out">SOLD OUT</span>
                       <ul className="cart-action-02">
                         <li><a href="#"><i className="icon-heart" /></a></li>

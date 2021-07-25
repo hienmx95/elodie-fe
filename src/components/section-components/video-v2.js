@@ -16,7 +16,7 @@ class VideoV2 extends Component {
           <div className="container">
             <div className="row justify-content-center text-center">
               <div className="col-md-12">
-                <div className="video-content-02 bg-image" style={{background: 'url("'+publicUrl+'assets/img/others/video2.png") no-repeat center center/cover'}}>
+                <div className="video-content-02 bg-image" style={{background: 'url("'+publicUrl+'assets/img/others/video.jfif") no-repeat center center/cover'}}>
                   <a href="#" className="video-btn-style-03"><i className="fa fa-play" /></a>
                 </div>
               </div>

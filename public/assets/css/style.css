@@ -2965,7 +2965,7 @@ ul {
         font-size: 16px; }
       .product-style-01 .content .content-price .new-price {
         font-size: 18px;
-        color: #FF8E78;
+        color: #7a8444;
         font-weight: 600; }
     .product-style-01 .content .content-bottom {
       opacity: 1;
@@ -6588,7 +6588,9 @@ ul.filter-main-nav > li:hover > a {
       color: #FF8E78 !important; }
   .footer-style-2 i:before {
     color: #E2E2E2 !important; }
-
+.footer-logo{
+  width: 110px;
+}
 .widget_about p {
   font-size: 14px;
   color: #fff;
