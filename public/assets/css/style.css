@@ -2046,9 +2046,9 @@ ul {
     z-index: 9;
     font-size: 0px; }
   .banner-style-03 .slick-prev {
-    left: calc(60% - 70px); }
+    left: calc(50% - 70px); }
   .banner-style-03 .slick-next {
-    left: 60%; }
+    left: 50%; }
 
 .banner-style-04 {
   position: relative; }
