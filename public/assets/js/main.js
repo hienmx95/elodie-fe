@@ -245,7 +245,7 @@
            autoplay: true,
            pauseOnHover:false,
            pauseOnFocus: false,
-           swipe : false,
+           //swipe : false,
            //autoplaySpeed: 2000,
            responsive: [
                 {
