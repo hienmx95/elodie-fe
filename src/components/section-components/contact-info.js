@@ -14,7 +14,7 @@ class ContactInfo extends Component {
     return <div>
 			  <div className="mapouter">
 			    <div className="gmap_canvas">
-			      <iframe width="100%" height="100%" id="gmap_canvas" src="https://maps.google.com/maps?q=university%20of%20san%20francisco&t=&z=13&ie=UTF8&iwloc=&output=embed" />
+				<iframe width="100%" height="600" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=173%20Xu%C3%A2n%20Th%E1%BB%A7y+(My%20Business%20Name)&amp;t=&amp;z=16&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe>
 			    </div>
 			  </div>
 			  {/* contact area start  */}
@@ -33,8 +33,8 @@ class ContactInfo extends Component {
 			            <div className="icon">
 			              <i className="icon-call-header" />
 			            </div>
-			            <a href="tel:+12345678910">+123456 78910</a><br />
-			            <a href="tel:+12345678911">+123456 78911</a><br />
+			            <a href="tel:+12345678910">(+84)0986-279-928</a><br />
+			            <a href="tel:+12345678911">(+84)0969-781-710</a><br />
 			            <span>Mobile</span>
 			          </div>
 			        </div>
@@ -43,8 +43,8 @@ class ContactInfo extends Component {
 			            <div className="icon">
 			              <i className="fa fa-envelope-open" />
 			            </div>
-			            <a href="#">brandfashion@email.com</a><br />
-			            <a href="#">support@codingeek.com</a><br />
+			            <a href="#">linhhajc@gmail.com</a><br />
+			            <a href="#">support@elodie.com.vn</a><br />
 			            <span>Email</span>
 			          </div>
 			        </div>
@@ -54,7 +54,7 @@ class ContactInfo extends Component {
 			              <i className="fa fa-map-marker" />
 			            </div>
 			            <span>
-			              125/A, CA Commercial Area <br />California, USA<br /> Address
+			              173 Xuân Thủy, Dịch Vọng Hậu <br />Cầu Giấy, Hà Nội<br /> Address
 			            </span>
 			          </div>
 			        </div>

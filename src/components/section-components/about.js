@@ -16,14 +16,14 @@ class About extends Component {
 			    <div className="row">
 			      <div className="col-lg-5">
 			        <div className="content-left">
-			          <h3>We take fashion personally &amp; we bring you happiness</h3>
-			          <p>Why not return to our amazing shop and start filling it with products. Just click on the button below to instantly get back to the shop page. <br /><br />Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+			          <h3>Hương thơm của sự thanh thoát &amp; Chúng tôi mang hạnh phúc đến cho bạn</h3>
+			          <p>Chúng ta không thể thay đổi tình hình hiện tại. Nhưng chúng ta có thể thay đổi cách suy nghĩ để tận hưởng nó. <br /><br />Người không quan tâm đến tôi, bạn dựa vào cái gì mà bảo tôi phải tiếp Người ta nghĩ sao về bạn, không có liên quan gì đến bạn. Bạn sống thế nào, cũng không có liên quan gì đến người ta.</p>
 			          <span>Moin Khan</span>
 			        </div>
 			      </div>
 			      <div className="col-lg-7">
 			        <div className="thumb">
-			          <img src={publicUrl+"assets/img/others/about.png" }alt="" />
+			          <img src={publicUrl+"assets/img/others/393d34101157607.5f1f7df1d52c5.jpg" }alt="" />
 			          {/* video button */}
 			          <div className="video-btn-style-01">
 			            <a href="#"><i className="fa fa-play" /></a>

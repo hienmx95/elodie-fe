@@ -236,7 +236,7 @@ class NavbarV3 extends Component {
 	      <div className="row">
 	        <div className="col-lg-2 col-xl-1 col-4 order-1 align-self-center">
 	          <div className="logo">
-	            <Link to="/"><img src={publicUrl+"assets/img/Untitled-10.svg"} alt="" /></Link>
+	            <Link to="/"><img src={publicUrl+"assets/img/elodie-logo.svg"} alt="" /></Link>
 	          </div>
 	        </div>
 	        <div className="col-lg-7 col-xl-7 order-3 order-lg-2">
@@ -246,9 +246,12 @@ class NavbarV3 extends Component {
 	              <li className="menu-item-has-children">
 	                <a href="#">Shop <i className="fa fa-angle-down" /></a>
 	                <ul className="sub-menu">
-	                  <li><Link to="collection">Shop Grid</Link></li>
-		               <li><Link to="collection-list">Shop List</Link></li>
-		               <li><Link to="collection-full">Shop Full</Link></li>
+	                   {/* <li><Link to="collection">ALL PRODUCTS</Link></li>
+		               <li><Link to="collection-list">NEW ARRIVALS</Link></li>
+		               <li><Link to="collection-full">SALES</Link></li> */}
+					   <li><Link to="collection-full">ALL PRODUCTS</Link></li>
+		               <li><Link to="collection-full">NEW ARRIVALS</Link></li>
+		               <li><Link to="collection-full">SALES</Link></li>
 	                </ul>
 	              </li>
 	              <li className="menu-item-has-children">

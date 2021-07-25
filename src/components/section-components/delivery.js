@@ -32,7 +32,7 @@ class Delivery extends Component {
             <div className="col-lg-4">
               <div className="single-delivery text-center">
                 <i className="icon-phone-support" />
-                <h6>1-800-333-44-55</h6>
+                <h6>0986-279-928</h6>
                 <p>24/7 Days Support</p>
               </div>
             </div>

@@ -268,7 +268,7 @@ class Navbar extends Component {
                 </div>
 
                <div className="stoon-navbar">
-                <div className="header-top d-none d-sm-block">
+                {/* <div className="header-top d-none d-sm-block">
                   <div className="container-fluid">
                     <div className="row align-items-center">
                       <div className="col-lg-4 col-8">
@@ -294,19 +294,19 @@ class Navbar extends Component {
                       </div>
                     </div>
                   </div>
-                </div>
+                </div> */}
                 <nav className="navbar navbar-area navbar-expand-lg nav-style-01">
                   <div className="container-fluid nav-container">
                     <div className="row">
-                      <div className="col-lg-3 col-4 order-1 align-self-center">
+                      <div className="col-lg-2 col-xl-1 col-4 order-1 align-self-center">
                         <div className="logo">
-                          <Link to="/"><img src={publicUrl+"assets/img/logo.png"} alt="" /></Link>
+                          <Link to="/"><img src={publicUrl+"assets/img/elodie-logo.svg"} alt="" /></Link>
                         </div>
                       </div>
                       <div className="col-lg-6 order-3 order-lg-2">
                         <div className="collapse navbar-collapse" id="shop-menu">
                           <ul className="navbar-nav menu-open">
-                            <li className="menu-item-has-children">
+                            {/* <li className="menu-item-has-children">
                               <a href="#">Home <i className="fa fa-angle-down" /></a>
                               <ul className="sub-menu">
                                 <li><Link to="/">Home 01</Link></li>
@@ -315,13 +315,17 @@ class Navbar extends Component {
                                 <li><Link to="/home-v4">Home 04</Link></li>
                                 <li><Link to="/home-v5">Home 05</Link></li>
                               </ul>
-                            </li>
+                            </li> */}
+							<li><Link to="/">Home</Link></li>
                             <li className="menu-item-has-children">
                               <a href="#">Shop <i className="fa fa-angle-down" /></a>
                               <ul className="sub-menu">
-                                <li><Link to="collection">Shop Grid</Link></li>
+                                {/* <li><Link to="collection">Shop Grid</Link></li>
                                 <li><Link to="collection-list">Shop List</Link></li>
-                                <li><Link to="collection-full">Shop Full</Link></li>
+                                <li><Link to="collection-full">Shop Full</Link></li> */}
+								<li><Link to="collection-full">ALL PRODUCTS</Link></li>
+								<li><Link to="collection-full">NEW ARRIVALS</Link></li>
+								<li><Link to="collection-full">SALES</Link></li>
                               </ul>
                             </li>
                             <li className="menu-item-has-children">

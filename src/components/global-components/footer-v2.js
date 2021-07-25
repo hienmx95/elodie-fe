@@ -28,7 +28,7 @@ class Footer_v2 extends Component {
                   <div className="widget widget_about">
                     <Link to="/">
                       {/* <img src={publicUrl+"assets/img/logo-white.png"} alt="" /> */}
-                      <img className="footer-logo" src={publicUrl+"assets/img/Untitled-12.svg"} alt="" />
+                      <img className="logo-resize-110" src={publicUrl+"assets/img/Untitled-12.svg"} alt="" />
                     </Link>
                     <p>Hạnh phúc lớn nhất đơn giản chỉ là thời khắc hiện tại bạn thực sự hài lòng với chính những gì bạn có. Dù vất vả, khó khăn nhưng ta biết trân trọng và yêu thương thì nhất định hạnh phúc sẽ mỉm cười với ta.</p>
                     <ul>

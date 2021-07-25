@@ -4261,7 +4261,7 @@ ul {
   .single-contact-box .icon {
     width: 60px;
     height: 60px;
-    background: #FF8E78;
+    background: #7a8444;
     border-radius: 5px;
     text-align: center;
     line-height: 70px;
@@ -4296,7 +4296,7 @@ ul {
   padding-right: 110px; }
 
 .btn-contact {
-  background: #141414;
+  background: #7a8444;
   font-size: 14px;
   font-weight: 700;
   color: #fff;
@@ -4591,7 +4591,7 @@ ul {
     margin-bottom: 0px; }
 
 .breadcrumb-area {
-  background: #FF8E78;
+  background: #7a8444;
   padding: 45px 0px; }
 
 .breadcrumb-inner .page-title {
@@ -5669,7 +5669,7 @@ ul.filter-main-nav > li:hover > a {
   margin-bottom: 40px; }
 
 .coming-area {
-  background: url(../img/others/coming.png);
+  background: url(../img/others/coming-soon.jfif);
   background-position: center;
   background-size: cover;
   position: relative; }
@@ -6588,9 +6588,9 @@ ul.filter-main-nav > li:hover > a {
       color: #FF8E78 !important; }
   .footer-style-2 i:before {
     color: #E2E2E2 !important; }
-.footer-logo{
+.logo-resize-110{
   width: 110px;
-}
+}sssss
 .widget_about p {
   font-size: 14px;
   color: #fff;

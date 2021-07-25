@@ -18,10 +18,10 @@ class ContactForm extends Component {
 			        <form>
 			          <div className="form-row">
 			            <div className="form-group col-md-6">
-			              <input type="text" className="form-control" id="name" placeholder="Name*" />
+			              <input type="text" className="form-control" id="name" placeholder="Họ tên*" />
 			            </div>
 			            <div className="form-group col-md-6">
-			              <input type="number" className="form-control" id="phone" placeholder="Phone*" />
+			              <input type="number" className="form-control" id="phone" placeholder="SĐT*" />
 			            </div>
 			          </div>
 			          <div className="form-row">
@@ -29,15 +29,15 @@ class ContactForm extends Component {
 			              <input type="email" className="form-control" id="email" placeholder="Email*" />
 			            </div>
 			            <div className="form-group col-md-6">
-			              <input type="text" className="form-control" id="topic" placeholder="Topic" />
+			              <input type="text" className="form-control" id="topic" placeholder="Chủ đề" />
 			            </div>
 			          </div>
 			          <div className="form-row">
 			            <div className="form-group col-md-12">
-			              <textarea name="message" id="message" rows={8} placeholder="Message" defaultValue={""} />
+			              <textarea name="message" id="message" rows={8} placeholder="Nội dung" defaultValue={""} />
 			            </div>
 			          </div>
-			          <button type="submit" className="btn btn-contact">Send Message</button>
+			          <button type="submit" className="btn btn-contact">Gửi liên hệ</button>
 			        </form>
 			      </div>
 			    </div>

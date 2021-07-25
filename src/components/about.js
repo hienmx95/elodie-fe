@@ -11,7 +11,7 @@ const About = () => {
         <Navbar />
         <PageHeader headertitle="About" />
         <AboutWithVideo />
-        <Team />
+        {/* <Team /> */}
         <Instagram />
         <Footer />
     </div>

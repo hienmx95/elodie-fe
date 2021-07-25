@@ -60,7 +60,7 @@ class Footer_v1 extends Component {
                               <i className="icon-home-foother" />
                             </div>
                             <div className="details">
-                              <span>Davis Patrick<br />P.O. Box 147 2546 Sociosqu Rd. <br />Bethlehem Utah 02913</span>
+                              <span>173 Xuân Thủy<br />Dịch Vọng Hậu<br />Cầu Giấy, Hà Nội</span>
                             </div>
                           </li>
                           <li className="single-info-item">
@@ -68,7 +68,7 @@ class Footer_v1 extends Component {
                               <i className="icon-email-subscribe" />
                             </div>
                             <div className="details">
-                              support@example.com
+                              support@elodie.com.vn
                             </div>
                           </li>
                           <li className="single-info-item">
@@ -76,7 +76,7 @@ class Footer_v1 extends Component {
                               <i className="icon-call-footer" />
                             </div>
                             <div className="details">
-                              <a href="tel:+496170961709">(939) 353-1107, (302) 259-2375</a>
+                              <a href="tel:+496170961709">(+84) 0986-279-928, (+84) 0969-781-710</a>
                             </div>
                           </li>
                         </ul>
@@ -94,25 +94,6 @@ class Footer_v1 extends Component {
                           <li><a href="https://www.skype.com/codingeek"><i className="icon-skype" /> Skype</a></li>
                         </ul>
                       </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div className="footer-bottom">
-                <div className="container">
-                  <div className="row">
-                    <div className="col-md-6 align-self-center">
-                      <p>© Stoon 2020. Powered with <i className="fa fa-heart" /> by <a href="#">Codingeek</a>.</p>
-                    </div>
-                    <div className="col-md-6">
-                      <ul>
-                        <li><a href="#"><img src={publicUrl+"assets/img/payment/1.png"} alt="" /></a></li>
-                        <li><a href="#"><img src={publicUrl+"assets/img/payment/2.png"} alt="" /></a></li>
-                        <li><a href="#"><img src={publicUrl+"assets/img/payment/3.png"} alt="" /></a></li>
-                        <li><a href="#"><img src={publicUrl+"assets/img/payment/4.png"} alt="" /></a></li>
-                        <li><a href="#"><img src={publicUrl+"assets/img/payment/5.png"} alt="" /></a></li>
-                        <li><a href="#"><img src={publicUrl+"assets/img/payment/6.png"} alt="" /></a></li>
-                      </ul>
                     </div>
                   </div>
                 </div>

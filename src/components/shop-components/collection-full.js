@@ -13,7 +13,7 @@ class CollectionFull extends Component {
 	        <div className="filter">
 	          <ul className="filter-main-nav">
 	            <li className="filter-level-link">
-	              <a className="mega-menu d-flex"><i className="fa fa-filter" /><span>Filter</span></a>
+	              {/* <a className="mega-menu d-flex"><i className="fa fa-filter" /><span>Filter</span></a> */}
 	              <div className="filter-menu-block">
 	                <div className="row">
 	                  <div className="col-md-3 col-lg-3 col-sm-3">
@@ -91,13 +91,13 @@ class CollectionFull extends Component {
 	          </ul> 
 	        </div>
 	      </div>
-	      <div className="col-md-8 col-5 offset-md-1">
+	      {/* <div className="col-md-8 col-5 offset-md-1">
 	        <ul className="nav nav-pills shop-tab">
 	          <li><a data-toggle="pill" href="#one" className="active"><i className="fa fa-th-large" /></a></li>
 	          <li><a data-toggle="pill" href="#two"><i className="fa fa-bars" /></a></li>
 	        </ul>
-	      </div>
-	      <div className="col-md-3 col-7">
+	      </div> */}
+	      {/* <div className="col-md-3 col-7">
 	        <form action="#">
 	          <select className="form-control sort-select">
 	            <option>Default sorting</option>
@@ -109,7 +109,7 @@ class CollectionFull extends Component {
 	          </select>
 	          <i className="fa fa-chevron-down" />
 	        </form> 
-	      </div>
+	      </div> */}
 	    </div>
 	    <div className="tab-content">
 	      <div className="tab-pane fade in show active" id="one">

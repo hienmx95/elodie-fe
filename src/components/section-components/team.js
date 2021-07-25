@@ -25,10 +25,10 @@ class Team extends Component {
 		        <div className="team-slider">
 		          <div className="single-team-item">
 		            <div className="thumb">
-		              <img className="rounded-circle" src={publicUrl+"assets/img/team/1.png"} alt="" />
+		              <img className="rounded-circle" src={publicUrl+"assets/img/team/hienmx.png"} alt="" />
 		            </div>
 		            <div className="content">
-		              <h4 className="title">Suddenlypsychic</h4>
+		              <h4 className="title">Mai Xuân Hiền</h4>
 		              <span className="designation">Software Developer</span>
 		              <ul className="team-social">
 		                <li><a href="#"><i className="icon-facebook" /></a></li>
@@ -42,8 +42,8 @@ class Team extends Component {
 		              <img className="rounded-circle" src={publicUrl+"assets/img/team/2.png"} alt="" />
 		            </div>
 		            <div className="content">
-		              <h4 className="title">Suddenlypsychic</h4>
-		              <span className="designation">Software Developer</span>
+		              <h4 className="title">Trịnh Thùy Linh</h4>
+		              <span className="designation">CEO &amp; Founder</span>
 		              <ul className="team-social">
 		                <li><a href="#"><i className="icon-facebook" /></a></li>
 		                <li><a href="#"><i className="icon-instagram" /></a></li>
@@ -56,7 +56,7 @@ class Team extends Component {
 		              <img className="rounded-circle" src={publicUrl+"assets/img/team/3.png"} alt="" />
 		            </div>
 		            <div className="content">
-		              <h4 className="title">Pete Castiglione</h4>
+		              <h4 className="title">Vũ Tú Ngọc</h4>
 		              <span className="designation">CEO &amp; Founder</span>
 		              <ul className="team-social">
 		                <li><a href="#"><i className="icon-facebook" /></a></li>

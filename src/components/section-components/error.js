@@ -25,7 +25,7 @@ class Error extends Component {
     return <div className="error-area pb-5">
 		  <div className="error-header text-center">
 		    <Link to="/">
-		      <img src={publicUrl+"assets/img/logo.png"} alt="logo" />
+		      <img className="logo-resize-110" src={publicUrl+"assets/img/elodie-logo.svg"} alt="logo" />
 		    </Link>
 		  </div>
 		  <div className="error-content margin-top-80 text-center">
