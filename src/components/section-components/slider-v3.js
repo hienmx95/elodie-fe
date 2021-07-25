@@ -24,7 +24,9 @@ class SliderV3 extends Component {
                           <Link className="btn btn-black" to="/collection-full">SHOP NOW</Link>
                         </div>
                         <div className="btn-wrapper">
-                          <a className="btn btn-video" href="#"><i className="fa fa-play" /> Play</a>
+                          {/* <a className="btn btn-video" href="#"><i className="fa fa-play" /> Play</a> */}
+                          <a href="#" className="btn btn-video-2 video-btn-style-03 "><i className="fa fa-play" /> Play</a>
+                          
                         </div>
                       </div>
                     </div>

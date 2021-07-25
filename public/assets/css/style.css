@@ -7033,6 +7033,15 @@ ul.filter-main-nav > li:hover > a {
       color: #fff;
       background: #000; }
 
+      .btn-video-2 {
+        border: 1px solid #F5F5F5;
+        padding: 18px 22px;
+        margin-left: 10px;
+        border-radius: 0px; }
+        .btn-video-2:hover {
+          color: #fff;
+          background: #000; }
+
 .btn.focus, .btn:focus {
   -webkit-box-shadow: none;
   box-shadow: none; }
