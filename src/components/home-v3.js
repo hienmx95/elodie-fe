@@ -16,7 +16,6 @@ const Home_V2 = () => {
     return <div>
         <NavbarV3 />
         <Sliderv3 />
-        <a className="btn btn-video" href="#"><i className="fa fa-play" /> Play</a>
         <DeliveryV3 />
         <NewArrivalV3 />
         <SaleBannerV2 />
