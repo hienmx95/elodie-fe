@@ -76,7 +76,7 @@
 
         $(".btn-video").magnificPopup({
             items: {
-                src: "https://www.youtube.com/embed/Ma3NRsq4nzE"
+                src: "https://www.youtube.com/watch?v=bk-7487l1OQ"
             },
             type: "iframe",
             iframe: {
@@ -242,16 +242,16 @@
            dots: false,
            arrows: true,
            infinite: true,
-           autoplay: false,
+           autoplay: true,
            responsive: [
                 {
-                    breakpoint: 1399,
+                    //breakpoint: 1399,
                     settings: {
                         arrows: false
                     }
                 },
                 {
-                    breakpoint: 768,
+                    //breakpoint: 768,
                     settings: {
                         arrows: false
                     }

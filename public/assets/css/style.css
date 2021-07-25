@@ -2135,7 +2135,7 @@ ul {
   width: 90px;
   height: auto;
   right: auto;
-  bottom: 0;
+  bottom: -15px;
   left: 50%; }
   .controler-wrapper .active-controler {
     font-weight: 300;

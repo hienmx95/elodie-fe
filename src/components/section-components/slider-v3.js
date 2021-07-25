@@ -58,14 +58,12 @@ class SliderV3 extends Component {
                 </div>
               </div>
             </div>
-            <a className="btn btn-video" href="#"><i className="fa fa-play" /> Play</a>
             <div className="controler-wrapper">
               <span className="active-controler">01</span> <span className="separator">/</span> <span className="total-controler">02</span>
             </div>
           </div>
-
-
-        }
+          
+    }
 }
 
 export default SliderV3
