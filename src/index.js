@@ -24,7 +24,6 @@ class Root extends Component {
     render() {
         return(
             <Router>
-                <HashRouter basename="/">
                 <div>
                 <Switch>
                     <Route exact path="/" component={HomeV3} />
@@ -46,7 +45,6 @@ class Root extends Component {
                     <Route path="/contact" component={Contact} />
                 </Switch>
                 </div>
-                </HashRouter>
             </Router>
         )
     }
