@@ -24,13 +24,8 @@ class SliderV3 extends Component {
                           <Link className="btn btn-black" to="/collection-full">SHOP NOW</Link>
                         </div>
                         <div className="btn-wrapper">
-                          {/* <a className="btn btn-video" href="#"><i className="fa fa-play" /> Play</a> */}
+                          <a className="btn btn-video" href="#"><i className="fa fa-play" /> Play</a>
                         </div>
-                        <div className="col-md-12">
-                <div className="video-content-02 bg-image" style={{background: 'url("'+publicUrl+'assets/img/others/video.jfif") no-repeat center center/cover'}}>
-                  <a href="#" className="video-btn-style-03"><i className="fa fa-play" /></a>
-                </div>
-              </div>
                       </div>
                     </div>
                   </div>
@@ -40,6 +35,7 @@ class SliderV3 extends Component {
                     </div>
                   </div>
                 </div>
+                <a className="btn btn-video" href="#"><i className="fa fa-play" /> Play</a>
                 <div className="row d-flex">
                   <div className="col-md-7 align-self-center">
                     <div className="content">
