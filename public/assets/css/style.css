@@ -1550,7 +1550,7 @@ ul {
         .nav-right-part ul li a span.badge.badge-green {
           background: #54CABF !important; }
         .nav-right-part ul li a span.badge.badge-red {
-          background: #E36E3A !important; }
+          background: #7a8444 !important; }
         .nav-right-part ul li a span.badge.badge-pink {
           background: #EB2246 !important; }
       .nav-right-part ul li a i:before {
@@ -6974,14 +6974,14 @@ ul.filter-main-nav > li:hover > a {
       top: 2px; }
   .btn-black {
     border-radius: 0px;
-    border: 1px solid #000;
+    border: 1px solid #7a8444;
     font-family: var(--body-font);
     font-size: 16px;
     letter-spacing: 0px;
     line-height: 33px;
     color: #fff;
     padding: 13px 35px;
-    background: #000; }
+    background: #7a8444; }
     .btn-black:hover, .btn-black:focus {
       border: 1px solid #F5F5F5;
       background: #fff;

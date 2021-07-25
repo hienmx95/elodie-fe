@@ -27,9 +27,9 @@ class Footer_v2 extends Component {
                 <div className="col-lg-3 col-md-6">
                   <div className="widget widget_about">
                     <Link to="/">
-                      <img src={publicUrl+"assets/img/logo-white.png"} alt="" />
+                      {/* <img src={publicUrl+"assets/img/logo-white.png"} alt="" /> */}
                     </Link>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sit amet sem non massa viverra posuere. Etiam risus lorem, tempor pretium eleifend et, maximus a magna.</p>
+                    <p>Hạnh phúc lớn nhất đơn giản chỉ là thời khắc hiện tại bạn thực sự hài lòng với chính những gì bạn có. Dù vất vả, khó khăn nhưng ta biết trân trọng và yêu thương thì nhất định hạnh phúc sẽ mỉm cười với ta.</p>
                     <ul>
                       <li><a href="https://www.facebook.com/codingeek"><i className="icon-facebook" /></a></li>
                       <li><a href="https://www.skype.com/codingeek"><i className="icon-skype" /></a></li>
@@ -47,7 +47,7 @@ class Footer_v2 extends Component {
                           <i className="icon-home-foother" />
                         </div>
                         <div className="details">
-                          <span>Davis Patrick<br />P.O. Box 147 2546 Sociosqu Rd. <br />Bethlehem Utah 02913</span>
+                          <span>Tòa nhà Pico<br />173 Xuân Thủy, Dịch Vọng Hậu <br />Cầu Giây, Hà Nội</span>
                         </div>
                       </li>
                       <li className="single-info-item">
@@ -55,7 +55,7 @@ class Footer_v2 extends Component {
                           <i className="icon-email-subscribe" />
                         </div>
                         <div className="details">
-                          support@example.com
+                          linhhajc@gmail.com
                         </div>
                       </li>
                       <li className="single-info-item">
@@ -63,7 +63,7 @@ class Footer_v2 extends Component {
                           <i className="icon-call-footer" />
                         </div>
                         <div className="details">
-                          <a href="tel:+496170961709">(939) 353-1107, (302) 259-2375</a>
+                          <a href="tel:+496170961709">(+84) 0986-279-928, (+84) 0969-781-710</a>
                         </div>
                       </li>
                     </ul>

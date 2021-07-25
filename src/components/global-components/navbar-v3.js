@@ -236,22 +236,13 @@ class NavbarV3 extends Component {
 	      <div className="row">
 	        <div className="col-lg-2 col-xl-1 col-4 order-1 align-self-center">
 	          <div className="logo">
-	            <Link to="/"><img src={publicUrl+"assets/img/Untitled-9.svg"} alt="" /></Link>
+	            <Link to="/"><img src={publicUrl+"assets/img/Untitled-10.svg"} alt="" /></Link>
 	          </div>
 	        </div>
 	        <div className="col-lg-7 col-xl-7 order-3 order-lg-2">
 	          <div className="collapse navbar-collapse" id="shop-menu">
 	            <ul className="navbar-nav menu-open text-left padding-top-5">
-	              <li className="menu-item-has-children">
-	                <a href="#">Home <i className="fa fa-angle-down" /></a>
-	                <ul className="sub-menu">
-	                    <li><Link to="/">Home 01</Link></li>
-	                    <li><Link to="/home-v2">Home 02</Link></li>
-	                    <li><Link to="/home-v3">Home 03</Link></li>
-	                    <li><Link to="/home-v4">Home 04</Link></li>
-	                    <li><Link to="/home-v5">Home 05</Link></li>
-	                </ul>
-	              </li>
+	              <li><Link to="/">Home</Link></li>
 	              <li className="menu-item-has-children">
 	                <a href="#">Shop <i className="fa fa-angle-down" /></a>
 	                <ul className="sub-menu">
