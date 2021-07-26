@@ -1,6 +1,6 @@
 import React from 'react';
 import Navbar from './global-components/navbar';
-import PageHeader from './global-components/page-header-v2';
+import PageHeader from './global-components/page-header-product-detail';
 import SingleProduct from './shop-components/single-product';
 import RelatedProduct from './shop-components/related-product';
 import Instagram from './section-components/instagram';

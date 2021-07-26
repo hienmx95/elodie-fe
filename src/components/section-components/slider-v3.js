@@ -19,7 +19,7 @@ class SliderV3 extends Component {
                     <div className="content">
                       <h2> Hinoki & Bamboo</h2>
                       <h4>NỒNG NÀN ĐẾN TỪNG PHÚT GIÂY</h4>
-                      <div className="d-flex">
+                      <iframe src="https://open.spotify.com/embed/track/5ajjAnNRh8bxFvaVHzpPjh" width="270" height="80" frameBorder="0" allowtransparency="true" allow="encrypted-media"></iframe>                      <div className="d-flex">
                         <div className="btn-wrapper stone-go-top">
                           <Link className="btn btn-black" to="/collection-full">SHOP NOW</Link>
                         </div>

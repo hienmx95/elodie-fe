@@ -14,8 +14,9 @@ class NewArivalV3 extends Component {
     return  <div className="tranding-area margin-top-80">
         <div className="container">
           <div className="row">
-            <div className="col-lg-4">
-              <div className="section-title-02">
+            <div className="col-lg-12">
+              <div className="section-title-02 text-center">
+                <h6>DISCOVER SOMETHING</h6>
                 <h3>NEW ARRIVALS</h3>
               </div>
             </div>

@@ -15,11 +15,11 @@ class TrendingV2 extends Component {
     return <div className="arrivals-area margin-top-75">
         <div className="container">
           <div className="row">
-            <div className="col-lg-4">
-              <div className="section-title-02">
-                <h3>TRENDING</h3>
+              <div className="col-lg-12">
+                <div className="section-title text-center">
+                  <h3>TRANDING NOW</h3>
+                </div>
               </div>
-            </div>
             {/* <div className="col-lg-8">
               <ul className="nav nav-pills collection-tab-02">
                 <li><a data-toggle="pill" href="#hot" className="active">All</a></li>

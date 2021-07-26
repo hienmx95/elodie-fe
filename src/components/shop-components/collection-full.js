@@ -114,474 +114,119 @@ class CollectionFull extends Component {
 	    <div className="tab-content">
 	      <div className="tab-pane fade in show active" id="one">
 	        <div className="row">
+				<div className="col-xl-4 col-lg-6 col-md-6 col-sm-6 col-12">
+					<div className="product-style-03 margin-top-40">
+						<div className="thumb">
+							<img src={publicUrl+"assets/img/shop/r1.png"} alt="" />
+							<ul className="cart-action">
+								<li><a className="add-to-cart" data-img="assets/img/shop/c4.png" data-name="Round neck sweater" data-price="450" href="#"><i className="icon-add-to-cat" /> </a></li>
+								<li><a href="#"><i className="icon-heart" /></a></li>
+							</ul>
+							<span className="sale">Sale! 13%</span>
+						</div>
+						<div className="content text-center">
+							<h6 className="title stone-go-top"><Link to="/product-details">Hinoki & Bamboo</Link></h6>
+							<div className="content-price d-flex align-self-center justify-content-center">
+								<span className="new-price">7.500.000 ₫</span>
+							</div>
+						</div>
+					</div>
+				</div>
 
-	   		 <div className="col-xl-4 col-lg-6 col-md-6 col-sm-6 col-12">
-			                <div className="product-style-03 margin-top-40">
-			                  <div className="thumb">
-			                    <img src={publicUrl+"assets/img/shop/1.png"} alt="" />
-			                    <ul className="cart-action">
-			                      <li><a className="add-to-cart" data-img="assets/img/shop/c1.png" data-name="Faxon Canvas Low-Top Sneaker" data-price="450" href="#"><i className="icon-add-to-cat" /> </a></li>
-			                      <li><a href="#"><i className="icon-heart" /></a></li>
-			                    </ul>
-			                  </div>
-			                  <div className="content text-center">
-			                    <span className="brand">Brand: geek</span>
-			                    <ul className="justify-content-center margin-bottom-20">
-			                      <li><a href="#"><i className="fa fa-star" /></a></li>
-			                      <li><a href="#"><i className="fa fa-star" /></a></li>
-			                      <li><a href="#"><i className="fa fa-star" /></a></li>
-			                      <li><a href="#"><i className="fa fa-star-o" /></a></li>
-			                      <li><a href="#"><i className="fa fa-star-o" /></a></li>
-			                    </ul>
-			                    <h6 className="title stone-go-top"><Link to="/product-details">Faxon Canvas Low-Top Sneaker</Link></h6>
-			                    <div className="content-price d-flex align-self-center justify-content-center">
-			                      <span className="new-price">$450.00</span>
-			                    </div>
-			                  </div>
-			                </div>
-			              </div>
-			              <div className="col-xl-4 col-lg-6 col-md-6 col-sm-6 col-12">
-			                <div className="product-style-03 margin-top-40">
-			                  <div className="thumb">
-			                    <img src={publicUrl+"assets/img/shop/2.png"} alt="" />
-			                    <span className="sale">Sale! 13%</span>
-			                    <span className="new margin-top-35">New</span>
-			                    <ul className="cart-action">
-			                      <li><a className="add-to-cart" data-img="assets/img/shop/c2.png" data-name="Viscose-Cashmere Scarf" data-price="450" href="#"><i className="icon-add-to-cat" /></a></li>
-			                      <li><a href="#"><i className="icon-heart" /></a></li>
-			                    </ul>
-			                  </div>
-			                  <div className="content text-center">
-			                    <span className="brand">Brand: geek</span>
-			                    <ul className="justify-content-center margin-bottom-20">
-			                      <li><a href="#"><i className="fa fa-star" /></a></li>
-			                      <li><a href="#"><i className="fa fa-star" /></a></li>
-			                      <li><a href="#"><i className="fa fa-star" /></a></li>
-			                      <li><a href="#"><i className="fa fa-star-o" /></a></li>
-			                      <li><a href="#"><i className="fa fa-star-o" /></a></li>
-			                    </ul>
-			                     <h6 className="title stone-go-top"><Link to="/product-details">Viscose-Cashmere Scarf</Link></h6>
-			                    <div className="content-price d-flex align-self-center justify-content-center">
-			                      <span className="new-price">$450.00</span>
-			                    </div>
-			                  </div>
-			                </div>
-			              </div>
-			              <div className="col-xl-4 col-lg-6 col-md-6 col-sm-6 col-12">
-			                <div className="product-style-03 margin-top-40">
-			                  <div className="thumb">
-			                    <img src={publicUrl+"assets/img/shop/3.png" }alt="" />
-			                    <span className="new">New</span>
-			                    <ul className="cart-action">
-			                      <li><a className="add-to-cart" data-img="assets/img/shop/c2.png" data-name="Round neck sweater" data-price="450" href="#"><i className="icon-add-to-cat" /></a></li>
-			                      <li><a href="#"><i className="icon-heart" /></a></li>
-			                    </ul>
-			                  </div>
-			                  <div className="content text-center">
-			                    <span className="brand">Brand: geek</span>
-			                    <ul className="justify-content-center margin-bottom-20">
-			                      <li><a href="#"><i className="fa fa-star" /></a></li>
-			                      <li><a href="#"><i className="fa fa-star" /></a></li>
-			                      <li><a href="#"><i className="fa fa-star" /></a></li>
-			                      <li><a href="#"><i className="fa fa-star-o" /></a></li>
-			                      <li><a href="#"><i className="fa fa-star-o" /></a></li>
-			                    </ul>
-			                     <h6 className="title stone-go-top"><Link to="/product-details">Round neck sweater</Link></h6>
-			                    <div className="content-price d-flex align-self-center justify-content-center">
-			                      <span className="new-price">$450.00</span>
-			                    </div>
-			                  </div>
-			                </div>
-			              </div>
-			              <div className="col-xl-4 col-lg-6 col-md-6 col-sm-6 col-12">
-			                <div className="product-style-03 margin-top-40">
-			                  <div className="thumb">
-			                    <img src={publicUrl+"assets/img/shop/4.png"} alt="" />
-			                    <span className="out">Sold out</span>
-			                    <ul className="cart-action">
-			                      <li><a className="add-to-cart" data-img="assets/img/shop/c2.png" data-name="Viscose-Cashmere Scarf" data-price="450" href="#"><i className="icon-add-to-cat" /></a></li>
-			                      <li><a href="#"><i className="icon-heart" /></a></li>
-			                    </ul>
-			                  </div>
-			                  <div className="content text-center">
-			                    <span className="brand">Brand: geek</span>
-			                    <ul className="justify-content-center margin-bottom-20">
-			                      <li><a href="#"><i className="fa fa-star" /></a></li>
-			                      <li><a href="#"><i className="fa fa-star" /></a></li>
-			                      <li><a href="#"><i className="fa fa-star" /></a></li>
-			                      <li><a href="#"><i className="fa fa-star-o" /></a></li>
-			                      <li><a href="#"><i className="fa fa-star-o" /></a></li>
-			                    </ul>
-			                     <h6 className="title stone-go-top"><Link to="/product-details">Viscose-Cashmere Scarf</Link></h6>
-			                    <div className="content-price d-flex align-self-center justify-content-center">
-			                      <span className="new-price">$450.00</span>
-			                    </div>
-			                  </div>
-			                </div>
-			              </div>
-			              <div className="col-xl-4 col-lg-6 col-md-6 col-sm-6 col-12">
-			                <div className="product-style-03 margin-top-40">
-			                  <div className="thumb">
-			                    <img src={publicUrl+"assets/img/shop/5.png"} alt="" />
-			                    <ul className="cart-action">
-			                      <li><a className="add-to-cart" data-img="assets/img/shop/c3.png" data-name="Faxon Canvas Low-Top Sneaker" data-price="450" href="#"><i className="icon-add-to-cat" /> </a></li>
-			                      <li><a href="#"><i className="icon-heart" /></a></li>
-			                    </ul>
-			                  </div>
-			                  <div className="content text-center">
-			                    <span className="brand">Brand: geek</span>
-			                    <ul className="justify-content-center margin-bottom-20">
-			                      <li><a href="#"><i className="fa fa-star" /></a></li>
-			                      <li><a href="#"><i className="fa fa-star" /></a></li>
-			                      <li><a href="#"><i className="fa fa-star" /></a></li>
-			                      <li><a href="#"><i className="fa fa-star-o" /></a></li>
-			                      <li><a href="#"><i className="fa fa-star-o" /></a></li>
-			                    </ul>
-			                    <h6 className="title stone-go-top"><Link to="/product-details">Faxon Canvas Low-Top Sneaker</Link></h6>
-			                    <div className="content-price d-flex align-self-center justify-content-center">
-			                      <span className="new-price">$450.00</span>
-			                    </div>
-			                  </div>
-			                </div>
-			              </div>
-			              <div className="col-xl-4 col-lg-6 col-md-6 col-sm-6 col-12">
-			                <div className="product-style-03 margin-top-40">
-			                  <div className="thumb">
-			                    <img src={publicUrl+"assets/img/shop/6.png"} alt="" />
-			                    <ul className="cart-action">
-			                      <li><a className="add-to-cart" data-img="assets/img/shop/c4.png" data-name="Round neck sweater" data-price="450" href="#"><i className="icon-add-to-cat" /> </a></li>
-			                      <li><a href="#"><i className="icon-heart" /></a></li>
-			                    </ul>
-			                    <span className="sale">Sale! 13%</span>
-			                    <div className="product-countdown clockdiv" data-countdown="2021/02/02">
-			                    </div>
-			                  </div>
-			                  <div className="content text-center">
-			                    <span className="brand">Brand: geek</span>
-			                    <ul className="justify-content-center margin-bottom-20">
-			                      <li><a href="#"><i className="fa fa-star" /></a></li>
-			                      <li><a href="#"><i className="fa fa-star" /></a></li>
-			                      <li><a href="#"><i className="fa fa-star" /></a></li>
-			                      <li><a href="#"><i className="fa fa-star-o" /></a></li>
-			                      <li><a href="#"><i className="fa fa-star-o" /></a></li>
-			                    </ul>
-			                     <h6 className="title stone-go-top"><Link to="/product-details">Round neck sweater</Link></h6>
-			                    <div className="content-price d-flex align-self-center justify-content-center">
-			                      <span className="new-price">$450.00</span>
-			                    </div>
-			                  </div>
-			                </div>
-			              </div>
-			              <div className="col-xl-4 col-lg-6 col-md-6 col-sm-6 col-12">
-			                <div className="product-style-03 margin-top-40">
-			                  <div className="thumb">
-			                    <img src={publicUrl+"assets/img/shop/7.png"} alt="" />
-			                    <ul className="cart-action">
-			                      <li><a className="add-to-cart" data-img="assets/img/shop/c1.png" data-name="Faxon Canvas Low-Top Sneaker" data-price="450" href="#"><i className="icon-add-to-cat" /> </a></li>
-			                      <li><a href="#"><i className="icon-heart" /></a></li>
-			                    </ul>
-			                  </div>
-			                  <div className="content text-center">
-			                    <span className="brand">Brand: geek</span>
-			                    <ul className="justify-content-center margin-bottom-20">
-			                      <li><a href="#"><i className="fa fa-star" /></a></li>
-			                      <li><a href="#"><i className="fa fa-star" /></a></li>
-			                      <li><a href="#"><i className="fa fa-star" /></a></li>
-			                      <li><a href="#"><i className="fa fa-star-o" /></a></li>
-			                      <li><a href="#"><i className="fa fa-star-o" /></a></li>
-			                    </ul>
-			                   <h6 className="title stone-go-top"><Link to="/product-details">Faxon Canvas Low-Top Sneaker</Link></h6>
-			                    <div className="content-price d-flex align-self-center justify-content-center">
-			                      <span className="new-price">$450.00</span>
-			                    </div>
-			                  </div>
-			                </div>
-			              </div>
-			              <div className="col-xl-4 col-lg-6 col-md-6 col-sm-6 col-12">
-			                <div className="product-style-03 margin-top-40">
-			                  <div className="thumb">
-			                    <img src={publicUrl+"assets/img/shop/8.png"} alt="" />
-			                    <span className="sale">Sale! 13%</span>
-			                    <span className="new margin-top-35">New</span>
-			                    <ul className="cart-action">
-			                      <li><a className="add-to-cart" data-img="assets/img/shop/c2.png" data-name="Viscose-Cashmere Scarf" data-price="450" href="#"><i className="icon-add-to-cat" /></a></li>
-			                      <li><a href="#"><i className="icon-heart" /></a></li>
-			                    </ul>
-			                  </div>
-			                  <div className="content text-center">
-			                    <span className="brand">Brand: geek</span>
-			                    <ul className="justify-content-center margin-bottom-20">
-			                      <li><a href="#"><i className="fa fa-star" /></a></li>
-			                      <li><a href="#"><i className="fa fa-star" /></a></li>
-			                      <li><a href="#"><i className="fa fa-star" /></a></li>
-			                      <li><a href="#"><i className="fa fa-star-o" /></a></li>
-			                      <li><a href="#"><i className="fa fa-star-o" /></a></li>
-			                    </ul>
-			                    <h6 className="title stone-go-top"><Link to="/product-details">Viscose-Cashmere Scarf</Link></h6>
-			                    <div className="content-price d-flex align-self-center justify-content-center">
-			                      <span className="new-price">$450.00</span>
-			                    </div>
-			                  </div>
-			                </div>
-			              </div>
-			              <div className="col-xl-4 col-lg-6 col-md-6 col-sm-6 col-12">
-			                <div className="product-style-03 margin-top-40">
-			                  <div className="thumb">
-			                    <img src={publicUrl+"assets/img/shop/9.png"} alt="" />
-			                    <span className="new">New</span>
-			                    <ul className="cart-action">
-			                      <li><a className="add-to-cart" data-img="assets/img/shop/c3.png" data-name="Round neck sweate" data-price="450" href="#"><i className="icon-add-to-cat" /> </a></li>
-			                      <li><a href="#"><i className="icon-heart" /></a></li>
-			                    </ul>
-			                  </div>
-			                  <div className="content text-center">
-			                    <span className="brand">Brand: geek</span>
-			                    <ul className="justify-content-center margin-bottom-20">
-			                      <li><a href="#"><i className="fa fa-star" /></a></li>
-			                      <li><a href="#"><i className="fa fa-star" /></a></li>
-			                      <li><a href="#"><i className="fa fa-star" /></a></li>
-			                      <li><a href="#"><i className="fa fa-star-o" /></a></li>
-			                      <li><a href="#"><i className="fa fa-star-o" /></a></li>
-			                    </ul>
-			                    <h6 className="title stone-go-top"><Link to="/product-details">Round neck sweate</Link></h6>
-			                    <div className="content-price d-flex align-self-center justify-content-center">
-			                      <span className="new-price">$450.00</span>
-			                    </div>
-			                  </div>
-			                </div>
-			              </div>
-			              <div className="col-xl-4 col-lg-6 col-md-6 col-sm-6 col-12">
-			                <div className="product-style-03 margin-top-40">
-			                  <div className="thumb">
-			                    <img src={publicUrl+"assets/img/shop/10.png"} alt="" />
-			                    <span className="out">Sold out</span>
-			                    <ul className="cart-action">
-			                      <li><a className="add-to-cart" data-img="assets/img/shop/c4.png" data-name="Faxon Canvas Low-Top Sneaker" data-price="450" href="#"><i className="icon-add-to-cat" /> </a></li>
-			                      <li><a href="#"><i className="icon-heart" /></a></li>
-			                    </ul>
-			                  </div>
-			                  <div className="content text-center">
-			                    <span className="brand">Brand: geek</span>
-			                    <ul className="justify-content-center margin-bottom-20">
-			                      <li><a href="#"><i className="fa fa-star" /></a></li>
-			                      <li><a href="#"><i className="fa fa-star" /></a></li>
-			                      <li><a href="#"><i className="fa fa-star" /></a></li>
-			                      <li><a href="#"><i className="fa fa-star-o" /></a></li>
-			                      <li><a href="#"><i className="fa fa-star-o" /></a></li>
-			                    </ul>
-			                    <h6 className="title stone-go-top"><Link to="/product-details">Faxon Canvas Low-Top Sneaker</Link></h6>
-			                    <div className="content-price d-flex align-self-center justify-content-center">
-			                      <span className="new-price">$450.00</span>
-			                    </div>
-			                  </div>
-			                </div>
-			              </div>
-			              <div className="col-xl-4 col-lg-6 col-md-6 col-sm-6 col-12">
-			                <div className="product-style-03 margin-top-40">
-			                  <div className="thumb">
-			                    <img src={publicUrl+"assets/img/shop/11.png"} alt="" />
-			                    <ul className="cart-action">
-			                      <li><a className="add-to-cart" data-img="assets/img/shop/c1.png" data-name="Viscose-Cashmere Scarf" data-price="450" href="#"><i className="icon-add-to-cat" /> </a></li>
-			                      <li><a href="#"><i className="icon-heart" /></a></li>
-			                    </ul>
-			                  </div>
-			                  <div className="content text-center">
-			                    <span className="brand">Brand: geek</span>
-			                    <ul className="justify-content-center margin-bottom-20">
-			                      <li><a href="#"><i className="fa fa-star" /></a></li>
-			                      <li><a href="#"><i className="fa fa-star" /></a></li>
-			                      <li><a href="#"><i className="fa fa-star" /></a></li>
-			                      <li><a href="#"><i className="fa fa-star-o" /></a></li>
-			                      <li><a href="#"><i className="fa fa-star-o" /></a></li>
-			                    </ul>
-			                     <h6 className="title stone-go-top"><Link to="/product-details">Viscose-Cashmere Scarf</Link></h6>
-			                    <div className="content-price d-flex align-self-center justify-content-center">
-			                      <span className="new-price">$450.00</span>
-			                    </div>
-			                  </div>
-			                </div>
-			              </div>
-			              <div className="col-xl-4 col-lg-6 col-md-6 col-sm-6 col-12">
-			                <div className="product-style-03 margin-top-40">
-			                  <div className="thumb">
-			                    <img src={publicUrl+"assets/img/shop/12.png"} alt="" />
-			                    <ul className="cart-action">
-			                      <li><a className="add-to-cart" data-img="assets/img/shop/c2.png" data-name="Viscose-Cashmere Scarf" data-price="450" href="#"><i className="icon-add-to-cat" /></a></li>
-			                      <li><a href="#"><i className="icon-heart" /></a></li>
-			                    </ul>
-			                    <span className="sale">Sale! 13%</span>
-			                  </div>
-			                  <div className="content text-center">
-			                    <span className="brand">Brand: geek</span>
-			                    <ul className="justify-content-center margin-bottom-20">
-			                      <li><a href="#"><i className="fa fa-star" /></a></li>
-			                      <li><a href="#"><i className="fa fa-star" /></a></li>
-			                      <li><a href="#"><i className="fa fa-star" /></a></li>
-			                      <li><a href="#"><i className="fa fa-star-o" /></a></li>
-			                      <li><a href="#"><i className="fa fa-star-o" /></a></li>
-			                    </ul>
-			                    <h6 className="title stone-go-top"><Link to="/product-details">Viscose-Cashmere Scarf</Link></h6>
-			                    <div className="content-price d-flex align-self-center justify-content-center">
-			                      <span className="new-price">$450.00</span>
-			                    </div>
-			                  </div>
-			                </div>
-			              </div>
-			              <div className="col-xl-4 col-lg-6 col-md-6 col-sm-6 col-12">
-			                <div className="product-style-03 margin-top-40">
-			                  <div className="thumb">
-			                    <img src={publicUrl+"assets/img/shop/13.png"} alt="" />
-			                    <span className="out">Sold out</span>
-			                    <ul className="cart-action">
-			                      <li><a className="add-to-cart" data-img="assets/img/shop/c3.png" data-name="Faxon Canvas Low-Top Sneaker" data-price="450" href="#"><i className="icon-add-to-cat" /> </a></li>
-			                      <li><a href="#"><i className="icon-heart" /></a></li>
-			                    </ul>
-			                  </div>
-			                  <div className="content text-center">
-			                    <span className="brand">Brand: geek</span>
-			                    <ul className="justify-content-center margin-bottom-20">
-			                      <li><a href="#"><i className="fa fa-star" /></a></li>
-			                      <li><a href="#"><i className="fa fa-star" /></a></li>
-			                      <li><a href="#"><i className="fa fa-star" /></a></li>
-			                      <li><a href="#"><i className="fa fa-star-o" /></a></li>
-			                      <li><a href="#"><i className="fa fa-star-o" /></a></li>
-			                    </ul>
-			                    <h6 className="title stone-go-top"><Link to="/product-details">Faxon Canvas Low-Top Sneaker</Link></h6>
-			                    <div className="content-price d-flex align-self-center justify-content-center">
-			                      <span className="new-price">$450.00</span>
-			                    </div>
-			                  </div>
-			                </div>
-			              </div>
-			              <div className="col-xl-4 col-lg-6 col-md-6 col-sm-6 col-12">
-			                <div className="product-style-03 margin-top-40">
-			                  <div className="thumb">
-			                    <img src={publicUrl+"assets/img/shop/14.png"} alt="" />
-			                    <ul className="cart-action">
-			                      <li><a className="add-to-cart" data-img="assets/img/shop/c4.png" data-name="Round neck sweater" data-price="450" href="#"><i className="icon-add-to-cat" /> </a></li>
-			                      <li><a href="#"><i className="icon-heart" /></a></li>
-			                    </ul>
-			                  </div>
-			                  <div className="content text-center">
-			                    <span className="brand">Brand: geek</span>
-			                    <ul className="justify-content-center margin-bottom-20">
-			                      <li><a href="#"><i className="fa fa-star" /></a></li>
-			                      <li><a href="#"><i className="fa fa-star" /></a></li>
-			                      <li><a href="#"><i className="fa fa-star" /></a></li>
-			                      <li><a href="#"><i className="fa fa-star-o" /></a></li>
-			                      <li><a href="#"><i className="fa fa-star-o" /></a></li>
-			                    </ul>
-			                    <h6 className="title stone-go-top"><Link to="/product-details">Round neck sweater</Link></h6>
-			                    <div className="content-price d-flex align-self-center justify-content-center">
-			                      <span className="new-price">$450.00</span>
-			                    </div>
-			                  </div>
-			                </div>
-			              </div>
-			              <div className="col-xl-4 col-lg-6 col-md-6 col-sm-6 col-12">
-			                <div className="product-style-03 margin-top-40">
-			                  <div className="thumb">
-			                    <img src={publicUrl+"assets/img/shop/15.png" }alt="" />
-			                    <ul className="cart-action">
-			                      <li><a className="add-to-cart" data-img="assets/img/shop/c1.png" data-name="Faxon Canvas Low-Top Sneaker" data-price="450" href="#"><i className="icon-add-to-cat" /> </a></li>
-			                      <li><a href="#"><i className="icon-heart" /></a></li>
-			                    </ul>
-			                    <span className="sale">Sale! 13%</span>
-			                  </div>
-			                  <div className="content text-center">
-			                    <span className="brand">Brand: geek</span>
-			                    <ul className="justify-content-center margin-bottom-20">
-			                      <li><a href="#"><i className="fa fa-star" /></a></li>
-			                      <li><a href="#"><i className="fa fa-star" /></a></li>
-			                      <li><a href="#"><i className="fa fa-star" /></a></li>
-			                      <li><a href="#"><i className="fa fa-star-o" /></a></li>
-			                      <li><a href="#"><i className="fa fa-star-o" /></a></li>
-			                    </ul>
-			                 	  <h6 className="title stone-go-top"><Link to="/product-details">Faxon Canvas Low-Top Sneaker</Link></h6>
-			                    <div className="content-price d-flex align-self-center justify-content-center">
-			                      <span className="new-price">$450.00</span>
-			                    </div>
-			                  </div>
-			                </div>
-			              </div>
-			              <div className="col-xl-4 col-lg-6 col-md-6 col-sm-6 col-12">
-			                <div className="product-style-03 margin-top-40">
-			                  <div className="thumb">
-			                    <img src={publicUrl+"assets/img/shop/16.png"} alt="" />
-			                    <span className="out">Sold out</span>
-			                    <ul className="cart-action">
-			                      <li><a className="add-to-cart" data-img="assets/img/shop/c2.png" data-name="Viscose-Cashmere Scarf" data-price="450" href="#"><i className="icon-add-to-cat" /></a></li>
-			                      <li><a href="#"><i className="icon-heart" /></a></li>
-			                    </ul>
-			                  </div>
-			                  <div className="content text-center">
-			                    <span className="brand">Brand: geek</span>
-			                    <ul className="justify-content-center margin-bottom-20">
-			                      <li><a href="#"><i className="fa fa-star" /></a></li>
-			                      <li><a href="#"><i className="fa fa-star" /></a></li>
-			                      <li><a href="#"><i className="fa fa-star" /></a></li>
-			                      <li><a href="#"><i className="fa fa-star-o" /></a></li>
-			                      <li><a href="#"><i className="fa fa-star-o" /></a></li>
-			                    </ul>
-			                    <h6 className="title stone-go-top"><Link to="/product-details">Viscose-Cashmere Scarf</Link></h6>
-			                    <div className="content-price d-flex align-self-center justify-content-center">
-			                      <span className="new-price">$450.00</span>
-			                    </div>
-			                  </div>
-			                </div>
-			              </div>
-			              <div className="col-xl-4 col-lg-6 col-md-6 col-sm-6 col-12">
-			                <div className="product-style-03 margin-top-40">
-			                  <div className="thumb">
-			                    <img src={publicUrl+"assets/img/shop/17.png"} alt="" />
-			                    <ul className="cart-action">
-			                      <li><a className="add-to-cart" data-img="assets/img/shop/c3.png" data-name="Faxon Canvas Low-Top Sneake" data-price="450" href="#"><i className="icon-add-to-cat" /> </a></li>
-			                      <li><a href="#"><i className="icon-heart" /></a></li>
-			                    </ul>
-			                  </div>
-			                  <div className="content text-center">
-			                    <span className="brand">Brand: geek</span>
-			                    <ul className="justify-content-center margin-bottom-20">
-			                      <li><a href="#"><i className="fa fa-star" /></a></li>
-			                      <li><a href="#"><i className="fa fa-star" /></a></li>
-			                      <li><a href="#"><i className="fa fa-star" /></a></li>
-			                      <li><a href="#"><i className="fa fa-star-o" /></a></li>
-			                      <li><a href="#"><i className="fa fa-star-o" /></a></li>
-			                    </ul>
-			                    <h6 className="title stone-go-top"><Link to="/product-details">Faxon Canvas Low-Top Sneake</Link></h6>
-			                    <div className="content-price d-flex align-self-center justify-content-center">
-			                      <span className="new-price">$450.00</span>
-			                    </div>
-			                  </div>
-			                </div>
-			              </div>
-			              <div className="col-xl-4 col-lg-6 col-md-6 col-sm-6 col-12">
-			                <div className="product-style-03 margin-top-40">
-			                  <div className="thumb">
-			                    <img src={publicUrl+"assets/img/shop/18.png"} alt="" />
-			                    <ul className="cart-action">
-			                      <li><a className="add-to-cart" data-img="assets/img/shop/c4.png" data-name="Round neck sweater" data-price="450" href="#"><i className="icon-add-to-cat" /> </a></li>
-			                      <li><a href="#"><i className="icon-heart" /></a></li>
-			                    </ul>
-			                    <span className="sale">Sale! 13%</span>
-			                  </div>
-			                  <div className="content text-center">
-			                    <span className="brand">Brand: geek</span>
-			                    <ul className="justify-content-center margin-bottom-20">
-			                      <li><a href="#"><i className="fa fa-star" /></a></li>
-			                      <li><a href="#"><i className="fa fa-star" /></a></li>
-			                      <li><a href="#"><i className="fa fa-star" /></a></li>
-			                      <li><a href="#"><i className="fa fa-star-o" /></a></li>
-			                      <li><a href="#"><i className="fa fa-star-o" /></a></li>
-			                    </ul>
-			                   <h6 className="title stone-go-top"><Link to="/product-details">Round neck sweater</Link></h6>
-			                    <div className="content-price d-flex align-self-center justify-content-center">
-			                      <span className="new-price">$450.00</span>
-			                    </div>
-			                  </div>
-			                </div>
-			              </div>
+				<div className="col-xl-4 col-lg-6 col-md-6 col-sm-6 col-12">
+					<div className="product-style-03 margin-top-40">
+						<div className="thumb">
+							<img src={publicUrl+"assets/img/shop/r1.png"} alt="" />
+							<ul className="cart-action">
+								<li><a className="add-to-cart" data-img="assets/img/shop/c4.png" data-name="Round neck sweater" data-price="450" href="#"><i className="icon-add-to-cat" /> </a></li>
+								<li><a href="#"><i className="icon-heart" /></a></li>
+							</ul>
+							<span className="sale">Sale! 13%</span>
+						</div>
+						<div className="content text-center">
+							<h6 className="title stone-go-top"><Link to="/product-details">Hinoki & Bamboo</Link></h6>
+							<div className="content-price d-flex align-self-center justify-content-center">
+								<span className="new-price">7.500.000 ₫</span>
+							</div>
+						</div>
+					</div>
+				</div>
 
+				<div className="col-xl-4 col-lg-6 col-md-6 col-sm-6 col-12">
+					<div className="product-style-03 margin-top-40">
+						<div className="thumb">
+							<img src={publicUrl+"assets/img/shop/r1.png"} alt="" />
+							<ul className="cart-action">
+								<li><a className="add-to-cart" data-img="assets/img/shop/c4.png" data-name="Round neck sweater" data-price="450" href="#"><i className="icon-add-to-cat" /> </a></li>
+								<li><a href="#"><i className="icon-heart" /></a></li>
+							</ul>
+							<span className="sale">Sale! 13%</span>
+						</div>
+						<div className="content text-center">
+							<h6 className="title stone-go-top"><Link to="/product-details">Hinoki & Bamboo</Link></h6>
+							<div className="content-price d-flex align-self-center justify-content-center">
+								<span className="new-price">7.500.000 ₫</span>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div className="col-xl-4 col-lg-6 col-md-6 col-sm-6 col-12">
+					<div className="product-style-03 margin-top-40">
+						<div className="thumb">
+							<img src={publicUrl+"assets/img/shop/r1.png"} alt="" />
+							<ul className="cart-action">
+								<li><a className="add-to-cart" data-img="assets/img/shop/c4.png" data-name="Round neck sweater" data-price="450" href="#"><i className="icon-add-to-cat" /> </a></li>
+								<li><a href="#"><i className="icon-heart" /></a></li>
+							</ul>
+							<span className="sale">Sale! 13%</span>
+						</div>
+						<div className="content text-center">
+							<h6 className="title stone-go-top"><Link to="/product-details">Hinoki & Bamboo</Link></h6>
+							<div className="content-price d-flex align-self-center justify-content-center">
+								<span className="new-price">7.500.000 ₫</span>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div className="col-xl-4 col-lg-6 col-md-6 col-sm-6 col-12">
+					<div className="product-style-03 margin-top-40">
+						<div className="thumb">
+							<img src={publicUrl+"assets/img/shop/r1.png"} alt="" />
+							<ul className="cart-action">
+								<li><a className="add-to-cart" data-img="assets/img/shop/c4.png" data-name="Round neck sweater" data-price="450" href="#"><i className="icon-add-to-cat" /> </a></li>
+								<li><a href="#"><i className="icon-heart" /></a></li>
+							</ul>
+							<span className="sale">Sale! 13%</span>
+						</div>
+						<div className="content text-center">
+							<h6 className="title stone-go-top"><Link to="/product-details">Hinoki & Bamboo</Link></h6>
+							<div className="content-price d-flex align-self-center justify-content-center">
+								<span className="new-price">7.500.000 ₫</span>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div className="col-xl-4 col-lg-6 col-md-6 col-sm-6 col-12">
+					<div className="product-style-03 margin-top-40">
+						<div className="thumb">
+							<img src={publicUrl+"assets/img/shop/r1.png"} alt="" />
+							<ul className="cart-action">
+								<li><a className="add-to-cart" data-img="assets/img/shop/c4.png" data-name="Round neck sweater" data-price="450" href="#"><i className="icon-add-to-cat" /> </a></li>
+								<li><a href="#"><i className="icon-heart" /></a></li>
+							</ul>
+							<span className="sale">Sale! 13%</span>
+						</div>
+						<div className="content text-center">
+							<h6 className="title stone-go-top"><Link to="/product-details">Hinoki & Bamboo</Link></h6>
+							<div className="content-price d-flex align-self-center justify-content-center">
+								<span className="new-price">7.500.000 ₫</span>
+							</div>
+						</div>
+					</div>
+				</div>
 	        </div>
 	      </div>
 	      <div className="tab-pane fade list-item" id="two">
@@ -806,23 +451,8 @@ class CollectionFull extends Component {
 
 	      </div>
 	    </div>
-	    <div className="row">
-	      <div className="col-md-12">
-	        <div className="d-flex justify-content-between pagination">
-	          <h6>Showing 1 to 12 of 19 products</h6>
-	          <ul>
-	            <li><a href="#">1</a></li>
-	            <li><a href="#">2</a></li>
-	            <li><a href="#">3</a></li>
-	          </ul>
-	        </div>
-	      </div>
-	    </div>
 	  </div>
 	</div>
-
-
-
     )
   }
 }

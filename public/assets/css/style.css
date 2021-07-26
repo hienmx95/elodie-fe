@@ -4594,6 +4594,24 @@ ul {
   background: #7a8444;
   padding: 45px 0px; }
 
+  .breadcrumb-area-pdetail {
+    background: #FAFAFA;
+    padding: 5px 0px; 
+  }
+
+  .breadcrumb-area-pdetail .breadcrumb-inner .page-title {
+    color: #7a8444;
+    font-family: var(--secondary-font);
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 24px;
+    margin-bottom: 0px;
+    -ms-flex-item-align: center;
+    align-self: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex; }
+
 .breadcrumb-inner .page-title {
   color: #fff;
   font-family: var(--secondary-font);
@@ -4606,6 +4624,26 @@ ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex; }
+
+  .breadcrumb-area-pdetail .breadcrumb-inner .page-list li a, .breadcrumb-inner .page-list li span {
+    color: #7a8444;
+    font-family: var(--secondary-font);
+    font-weight: 400;
+    font-size: 18px; }
+
+    .breadcrumb-area-pdetail .breadcrumb-inner .page-list li:before {
+      position: absolute;
+      content: '/';
+      right: 0px;
+      color: #7a8444; }
+
+      .breadcrumb-area-pdetail  .breadcrumb-inner .page-list li span {
+        color: #7a8444;
+        font-family: var(--secondary-font);
+        font-weight: 400;
+        font-size: 18px; }
+        
+
 
 .breadcrumb-inner .page-list {
   margin: 0;
@@ -5344,17 +5382,19 @@ ul.filter-main-nav > li:hover > a {
   display: block; }
 
 .collection-area .content-part .product-title {
-  font-family: var(--secondary-font);
-  font-weight: 700;
-  font-size: 32px;
-  line-height: 44px;
-  color: #141414; }
+  /* font-family: var(--secondary-font); */
+  font-family: "Raleway", Sans-serif;
+  text-transform: uppercase;
+  font-size: 36px;
+  font-style: normal;
+  color: #4D4D4D; }
 
 .collection-area .content-part .price {
-  font-weight: 600;
-  font-size: 42px;
-  line-height: 52px;
-  color: #FF8E78; }
+  font-size: 1.25em;
+  color: #7a8444; 
+  /* font-family: 'Josefin Sans'; */
+  font-family: "Raleway", Sans-serif;
+}
 
 .collection-area .content-part .rating i {
   color: #FFB503; }
@@ -5381,8 +5421,8 @@ ul.filter-main-nav > li:hover > a {
   padding: 10px 10px; }
 
 .collection-area .content-part .add-to-cart-style {
-  background: #FF8E78;
-  border: 1px solid #E9E9E9;
+  background: #7a8444;
+  border: 1px solid #7a8444;
   text-align: center;
   font-size: 20px;
   line-height: 44px;
@@ -5390,7 +5430,7 @@ ul.filter-main-nav > li:hover > a {
   -o-transition: all .3s;
   transition: all .3s;
   color: #fff;
-  padding: 5px 30px;
+  padding: 3px 110px;
   display: inline-block;
   margin-left: 35px; }
 
