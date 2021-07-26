@@ -2,7 +2,7 @@ FROM docker-registry.default.svc:5000/epos/node:12 as node-dev
 
 WORKDIR /src
 
-COPY package.json .npmrc ./
+COPY package.json ./
 
 RUN  yarn install --development
 
