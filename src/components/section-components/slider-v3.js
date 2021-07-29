@@ -31,7 +31,7 @@ class SliderV3 extends Component {
                   </div>
                   <div className="col-md-5">
                     <div className="thumb">
-                      <img src={publicUrl+"assets/img/banner/modshow.png"} alt="" />
+                      <img src={publicUrl+"assets/img/banner/e361ee8882f275ac2ce3-2.jpg"} alt="" />
                     </div>
                   </div>
                 </div>
@@ -52,7 +52,7 @@ class SliderV3 extends Component {
                   </div>
                   <div className="col-md-5">
                     <div className="thumb">
-                      <img src={publicUrl+"assets/img/banner/7385217d4d07ba59e316.jpg"} alt="" />
+                      <img src={publicUrl+"assets/img/banner/modshow.png"} alt="" />
                     </div>
                   </div>
                 </div>
