@@ -11,19 +11,24 @@ import BrandV2 from './section-components/brand-v2';
 import LatestArticleV3 from './section-components/latest-article-v3';
 import Instagram from './section-components/instagram-v3';
 import Footer from './global-components/footer-v2';
+import CollectionSliderV2 from './section-components/collection-slider-v2';
+import CollectionSliderV3 from './section-components/collection-slider-v3';
 
 const Home_V2 = () => {
     return <div>
         <NavbarV3 />
         <Sliderv3 />
         <DeliveryV3 />
+        <CollectionSliderV2 />
         <NewArrivalV3 />
-        <SaleBannerV2 />
+        <CollectionSliderV3 />
         <TrendingV2 />
+        <SaleBannerV2 />
+        
         <Video />
-        <SubscriberV2 />
+        {/* <SubscriberV2 /> */}
         {/* <BrandV2 /> */}
-        <LatestArticleV3 />
+        {/* <LatestArticleV3 /> */}
         <Instagram />
         <Footer customclass="margin-top-80" />
     </div>

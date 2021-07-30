@@ -14,7 +14,7 @@ class CollectionSlider extends Component {
 
     return <div className="collection-banner margin-bottom-80 stone-go-top">
           <div className="container">
-            <div className="row collection-slider-03">
+            <div className="row collection-slider-03-v2">
               <div className="col-lg-12">
                 <div className="collection-style-04 margin-top-30">
                   <div className="thumb">

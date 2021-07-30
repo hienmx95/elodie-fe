@@ -27,7 +27,7 @@ class Root extends Component {
                 <div>
                 <Switch>
                     <Route exact path="/" component={HomeV3} />
-                    <Route exact path="home-v1" component={HomeV1} />
+                    <Route path="/home-v1" component={HomeV1} />
                     <Route path="/home-v2" component={HomeV2} />
                     <Route path="/home-v3" component={HomeV3} />
                     <Route path="/home-v4" component={HomeV4} />

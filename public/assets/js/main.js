@@ -449,6 +449,30 @@
             ]
         });
 
+        $('.collection-slider-03-v2').slick({
+            dots: false,
+            arrows: true,
+            infinite: true,
+            speed: 300,
+            slidesToShow: 5,
+            slidesToScroll: 2,
+            responsive: [
+                {
+                    breakpoint: 760,
+                    settings: {
+                        slidesToShow: 1,
+                        slidesToScroll: 1
+                    }
+                },
+                {
+                    breakpoint: 480,
+                    settings: {
+                        slidesToShow: 1,
+                        slidesToScroll: 1
+                    }
+                }
+            ]
+        });
         // brand slider
         $('.related-slider').slick({
             dots: false,
