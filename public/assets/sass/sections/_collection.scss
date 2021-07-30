@@ -634,3 +634,64 @@
         position: absolute;
     }
 }
+
+
+.collection-slider-03-v2 {
+    
+    
+    .slick-prev, .slick-next {
+        background: transparent;
+        width: 60px;
+        height: 45px;
+        z-index: 9;
+        transition: all .3s;
+        top: auto;
+        border: 0px;
+        color: $color-black;
+        font-size: 16px;
+        font-weight: 700;
+        text-transform: uppercase;
+    }
+
+    .slick-prev {
+        left: calc(50% - 50px);
+        z-index: 9;
+        bottom: -100px;
+
+        &:before {
+            content: "\f104";
+            font-family: 'fontawesome';
+            left: -5px;
+        }
+
+        &:after {
+            content: "";
+            width: 1px;
+            background: #E9E9E9;
+            height: 67px;
+            top: 0px;
+            right: 0px;
+            position: absolute;
+            transform: rotate(45deg);
+        }
+    }
+
+    .slick-next {
+        left: 51%;
+        bottom: -120px;
+
+        &:before {
+            content: "\f105";
+            font-family: 'fontawesome';
+            left: 56px;
+        }
+    }
+
+    .slick-prev:before, .slick-next:before {
+        font-size: 20px;
+        color: $color-black;
+        line-height: 35px;
+        top: 5px;
+        position: absolute;
+    }
+}

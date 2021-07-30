@@ -19,7 +19,7 @@ const Home_V2 = () => {
         <NavbarV3 />
         <Sliderv3 />
         <DeliveryV3 />
-        <CollectionSliderV2 />
+        {/* <CollectionSliderV2 /> */}
         <NewArrivalV3 />
         <CollectionSliderV3 />
         <TrendingV2 />

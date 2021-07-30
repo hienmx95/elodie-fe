@@ -11,7 +11,7 @@ class NewArivalV3 extends Component {
         let imagealt = 'image'
 
 
-    return  <div className="tranding-area margin-top-150">
+    return  <div className="tranding-area margin-top-60">
         <div className="container">
           <div className="row">
             <div className="col-lg-12">
