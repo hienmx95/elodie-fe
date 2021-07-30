@@ -370,7 +370,8 @@
     top: 0;
     z-index: 9999;
     transition: all .4s;
-
+    background-color: white;
+    position: fixed;
     .nav-container {
         background-color: transparent;
         padding: 18px 40px;
