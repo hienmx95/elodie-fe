@@ -24,21 +24,7 @@ class Footer_v2 extends Component {
           <div className="footer-top padding-bottom-50">
             <div className="container">
               <div className="row">
-                <div className="col-lg-3 col-md-6">
-                  <div className="widget widget_about">
-                    <Link to="/">
-                      {/* <img src={publicUrl+"assets/img/logo-white.png"} alt="" /> */}
-                      <img className="logo-resize-110" src={publicUrl+"assets/img/Untitled-12.svg"} alt="" />
-                    </Link>
-                    <p>Hạnh phúc lớn nhất đơn giản chỉ là thời khắc hiện tại bạn thực sự hài lòng với chính những gì bạn có. Dù vất vả, khó khăn nhưng ta biết trân trọng và yêu thương thì nhất định hạnh phúc sẽ mỉm cười với ta.</p>
-                    <ul>
-                      <li><a href="https://www.facebook.com/codingeek"><i className="icon-facebook" /></a></li>
-                      <li><a href="https://www.skype.com/codingeek"><i className="icon-skype" /></a></li>
-                      <li><a href="https://www.instagram.com/codingeek"><i className="icon-instagram" /></a></li>
-                      <li><a href="https://www.pinterest.com/codingeek"><i className="icon-pinterest" /></a></li>
-                    </ul>
-                  </div>
-                </div>
+            
                 <div className="col-lg-4 col-md-6 offset-lg-1">
                   <div className="widget contact-widget">
                     <h4 className="widget-title">GET IN TOUCH</h4>

@@ -13,7 +13,7 @@ import Instagram from './section-components/instagram-v3';
 import Footer from './global-components/footer-v2';
 import CollectionSliderV2 from './section-components/collection-slider-v2';
 import CollectionSliderV3 from './section-components/collection-slider-v3';
-
+import NewArrivalV4 from './section-components/new-arrival-v4';
 const Home_V2 = () => {
     return <div>
         <NavbarV3 />
@@ -30,6 +30,7 @@ const Home_V2 = () => {
         {/* <BrandV2 /> */}
         {/* <LatestArticleV3 /> */}
         <Instagram />
+        <NewArrivalV4 />
         <Footer customclass="margin-top-80" />
     </div>
 }
