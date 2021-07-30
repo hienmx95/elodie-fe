@@ -20,7 +20,7 @@ class Footer_v2 extends Component {
 
 
         return (
-          <footer className={"footer-area footer-style-2 padding-top-80 "+customclass}>
+          <footer className={"footer-area footer-style-2 padding-top-80 "}>
           <div className="footer-top padding-bottom-50">
             <div className="container">
               <div className="row">

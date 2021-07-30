@@ -47,11 +47,6 @@ class InstagramV3 extends Component {
                 </div>
               </div>
             </div>
-            <div className="col-md-12 text-center">
-              <div className="btn-wrapper">
-                <a href="#" className="btn btn-gallery">VIEW GALLERY</a>
-              </div>
-            </div>
           </div>
         </div>
       </div>
