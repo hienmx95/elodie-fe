@@ -9,11 +9,12 @@ import Video from './section-components/video-v2';
 import SubscriberV2 from './section-components/subscriber-v2';
 import BrandV2 from './section-components/brand-v2';
 import LatestArticleV3 from './section-components/latest-article-v3';
-import Instagram from './section-components/instagram-v3';
+import InstagramV3 from './section-components/instagram-v3';
 import Footer from './global-components/footer-v2';
 import CollectionSliderV2 from './section-components/collection-slider-v2';
 import CollectionSliderV3 from './section-components/collection-slider-v3';
 import NewArrivalV4 from './section-components/new-arrival-v4';
+import Instagram from './section-components/instagram';
 const Home_V2 = () => {
     return <div>
         <NavbarV3 />
