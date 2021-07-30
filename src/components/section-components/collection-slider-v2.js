@@ -12,7 +12,7 @@ class CollectionSlider extends Component {
         let imagealt = 'image'
 
 
-    return <div className="collection-banner margin-bottom-80 stone-go-top">
+    return <div className="collection-banner margin-bottom-120 stone-go-top">
           <div className="container">
             <div className="row collection-slider-03">
               <div className="col-lg-12">
