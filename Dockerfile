@@ -1,9 +1,9 @@
-FROM docker-registry.default.svc:5000/epos/nodejs-010-centos7
+FROM docker-registry.default.svc:5000/epos/node:14
 WORKDIR /src
 
 COPY package.json ./
 
-RUN apk add yarn && yarn install --development
+RUN yarn install --development
 
 COPY . .
 
