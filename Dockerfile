@@ -1,4 +1,4 @@
-FROM docker-registry.default.svc:5000/epos/node as node-dev
+FROM docker-registry.default.svc:5000/epos/node:12 as node-dev
 
 WORKDIR /src
 
