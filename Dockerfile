@@ -3,7 +3,7 @@ WORKDIR /src
 
 COPY package.json ./
 
-RUN  yarn install --development
+RUN apk add yarn && yarn install --development
 
 COPY . .
 
