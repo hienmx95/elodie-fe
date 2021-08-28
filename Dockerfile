@@ -3,11 +3,11 @@ WORKDIR /src
 
 COPY package.json ./
 
-RUN  yarn install --development
+RUN  npm install --development
 
 COPY . .
 
-RUN yarn build
+RUN npm build
 
 # Using nginx to serve front-end
 FROM docker-registry.default.svc:5000/epos/nginx:1.14.2
