@@ -1,4 +1,4 @@
-FROM docker-registry.default.svc:5000/epos/node:14 as node-dev
+FROM docker-registry.default.svc:5000/epos/node:14 AS builder
 WORKDIR /src
 
 COPY package.json ./
@@ -17,7 +17,7 @@ EXPOSE 8080
 WORKDIR /var/www/html
 
 # Copy built artifacts
-COPY --from=node-dev /src/build/ ./
+COPY --from=builder /src/build/ ./
 
 # Copy nginx configuration folder
 RUN rm /etc/nginx/conf.d/default.conf
