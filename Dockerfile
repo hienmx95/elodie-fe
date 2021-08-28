@@ -11,7 +11,7 @@ COPY . .
 RUN yarn build
 
 # Using nginx to serve front-end
-FROM docker-registry.default.svc:5000/default/nginx:1.14.2
+FROM docker-registry.default.svc:5000/default/openshift-nginx
 
 EXPOSE 8080
 
