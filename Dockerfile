@@ -1,4 +1,4 @@
-FROM docker-registry.default.svc:5000/epos/node:12
+FROM docker-registry.default.svc:5000/epos/nodejs-010-centos7	as node-dev
 WORKDIR /src
 
 COPY package.json .npmrc ./
@@ -17,7 +17,7 @@ EXPOSE 8080
 WORKDIR /var/www/html
 
 # Copy built artifacts
-# COPY --from=node-dev /src/build/ ./
+COPY --from=node-dev /src/build/ ./
 
 # Copy nginx configuration folder
 COPY ./nginx/conf.d/ /opt/bitnami/nginx/conf/vhosts/
