@@ -1,5 +1,4 @@
-FROM docker-registry.default.svc:5000/epos/node:12 as node-dev
-
+FROM docker-registry.default.svc:5000/epos/node:12
 WORKDIR /src
 
 COPY package.json .npmrc ./
