@@ -1,4 +1,4 @@
-FROM docker-registry.default.svc:5000/epos/node:12-alpine as base
+FROM node:12-alpine as base
 WORKDIR /src
 
 COPY package.json ./
