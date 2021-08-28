@@ -1,4 +1,4 @@
-FROM docker-registry.default.svc:5000/epos/node:12 as node-dev
+FROM docker.io/openshift/nodejs-010-centos7 as node-dev
 
 WORKDIR /src
 
