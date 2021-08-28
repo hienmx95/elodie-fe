@@ -1,8 +1,8 @@
-FROM docker-registry.default.svc:5000/default/my-nodejs as node-dev
+FROM docker-registry.default.svc:5000/epos/node:12 as node-dev
 
 WORKDIR /src
 
-COPY package.json ./
+COPY package.json .npmrc ./
 
 RUN  yarn install --development
 
@@ -11,7 +11,7 @@ COPY . .
 RUN yarn build
 
 # Using nginx to serve front-end
-FROM nginx:1.14.2
+FROM docker-registry.default.svc:5000/epos/bitnaminginx:1.14.2
 
 EXPOSE 8080
 
