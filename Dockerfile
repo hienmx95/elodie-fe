@@ -1,4 +1,4 @@
-FROM docker.io/openshift/nodejs-010-centos7 as node-dev
+FROM docker-registry.default.svc:5000/default/my-nodejs
 
 WORKDIR /src
 
@@ -18,7 +18,7 @@ EXPOSE 8080
 WORKDIR /var/www/html
 
 # Copy built artifacts
-COPY --from=node-dev /src/build/ ./
+# COPY --from=node-dev /src/build/ ./
 
 # Copy nginx configuration folder
 COPY ./nginx/conf.d/ /opt/bitnami/nginx/conf/vhosts/
