@@ -1,4 +1,4 @@
-FROM docker-registry.default.svc:5000/epos/node:12 as node-dev
+FROM node:12 as node-dev
 
 WORKDIR /src
 
@@ -11,7 +11,7 @@ COPY . .
 RUN yarn build
 
 # Using nginx to serve front-end
-FROM docker-registry.default.svc:5000/epos/bitnaminginx:1.14.2
+FROM nginx:1.14.2
 
 EXPOSE 8080
 
