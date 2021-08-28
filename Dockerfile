@@ -1,7 +1,7 @@
 FROM docker-registry.default.svc:5000/epos/nodejs-010-centos7
 WORKDIR /src
 
-COPY package.json .npmrc ./
+COPY package.json ./
 
 RUN  yarn install --development
 
