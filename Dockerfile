@@ -1,4 +1,4 @@
-FROM docker-registry.default.svc:5000/default/openshift-nodejs
+FROM docker-registry.default.svc:5000/epos/node as node-dev
 
 WORKDIR /src
 
