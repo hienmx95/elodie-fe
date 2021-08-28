@@ -1,4 +1,4 @@
-FROM node:12-alpine as base
+FROM docker-registry.default.svc:5000/epos/node:12-alpine
 WORKDIR /src
 
 COPY package.json ./
@@ -17,7 +17,7 @@ EXPOSE 8080
 WORKDIR /var/www/html
 
 # Copy built artifacts
-COPY --from=base /src/build/ ./
+COPY --from=0 /src/build/ ./
 
 # Copy nginx configuration folder
 RUN rm /etc/nginx/conf.d/default.conf
