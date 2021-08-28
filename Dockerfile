@@ -1,4 +1,4 @@
-FROM node:12 as node-dev
+FROM openshift/nodejs-010-centos7 as node-dev
 
 WORKDIR /src
 
