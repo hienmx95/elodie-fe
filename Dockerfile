@@ -10,7 +10,7 @@ COPY . .
 RUN yarn build
 
 # Using nginx to serve front-end
-FROM docker-registry.default.svc:5000/epos/nginx:1.14.2
+FROM docker-registry.default.svc:5000/elodie/nginx:1.14.2
 
 EXPOSE 8080
 
