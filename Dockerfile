@@ -1,4 +1,4 @@
-FROM nginxinc/nginx-unprivileged as node-dev
+FROM docker-registry.default.svc:5000/elodie/node:12 as node-dev
 WORKDIR /src
 
 COPY package.json ./
@@ -10,7 +10,7 @@ COPY . .
 RUN yarn build
 
 # Using nginx to serve front-end
-FROM docker-registry.default.svc:5000/elodie/nginx:1.14.2
+FROM nginxinc/nginx-unprivileged
 
 EXPOSE 8080
 
