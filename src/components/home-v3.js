@@ -30,7 +30,7 @@ const Home_V2 = () => {
         {/* <SubscriberV2 /> */}
         {/* <BrandV2 /> */}
         {/* <LatestArticleV3 /> */}
-        <Instagram />
+        {/* <Instagram /> */}
         <NewArrivalV4 />
         <Footer customclass="margin-top-80" />
     </div>
