@@ -1,0 +1,54 @@
+.Song-Thumbnail-1{
+  border-radius: 100%;
+  animation:spin 10s linear infinite;
+  -webkit-animation:spin 10s linear infinite;
+  -moz-animation:spin 10s linear infinite;
+}
+
+@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
+
+.Pause-Play-Button-1 {
+  position: absolute;
+  top: 30px;
+  display: flex;
+  justify-content: center;
+  width: 30px;
+  height: 22px;
+  margin: 0 32px;
+  svg {
+    height: 22px;
+  }
+}
+
+.back-to-top-1 {
+  position: fixed;
+  right: 30px;
+  bottom: 10px;
+  width: 80px;
+  height: 80px;
+  color: var(--main-color);
+  text-align: center;
+  line-height: 45px;
+  z-index: 99;
+  font-size: 30px;
+  cursor: pointer;
+  /* -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); */
+  /* box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); */
+  /* display: none; */
+}
+
+.Control-Button-Group-1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  > * {
+    cursor: pointer;
+  }
+}
+
+.Prev-Button,
+.Next-Button {
+  width: 20px;
+}

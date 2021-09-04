@@ -16,6 +16,7 @@ import NextIcon from "../icons/NextIcon";
 import PauseIcon from "../icons/PauseIcon";
 import PlayIcon from "../icons/PlayIcon";
 import audios from "../audios";
+import "../audio-home.scss";
 export default function Home() {
     
   const audioRef = useRef();
@@ -70,7 +71,7 @@ export default function Home() {
 
             <div className="back-to-top-1">
                 <img className="Song-Thumbnail-1" src={RecklessImg} alt="tet" />
-                <div className="Control-Button-Group">
+                <div className="Control-Button-Group-1">
                   <div className="Pause-Play-Button-1" onClick={handlePausePlayClick}>
                     <PrevIcon />
                   </div>
