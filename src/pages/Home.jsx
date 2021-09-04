@@ -72,7 +72,7 @@ export default function Home() {
                 <img className="Song-Thumbnail-1" src={RecklessImg} alt="tet" />
                 <div className="Control-Button-Group">
                   <div className="Pause-Play-Button-1" onClick={handlePausePlayClick}>
-                    {isPlay ? <PauseIcon /> : <PlayIcon />}
+                    <PrevIcon />
                   </div>
                 </div>
             </div>
