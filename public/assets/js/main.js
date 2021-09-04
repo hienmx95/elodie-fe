@@ -242,7 +242,7 @@
            dots: false,
            arrows: true,
            infinite: true,
-           autoplay: true,
+           autoplay: false,
            pauseOnHover:false,
            pauseOnFocus: false,
            //swipe : false,

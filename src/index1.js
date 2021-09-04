@@ -53,4 +53,4 @@ class Root extends Component {
 
 export default Root;
 
-ReactDOM.render(<Root />, document.getElementById('stoon'));
+// ReactDOM.render(<Root />, document.getElementById('stoon'));

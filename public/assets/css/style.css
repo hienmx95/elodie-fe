@@ -992,7 +992,7 @@ ul {
     max-width: 1366px; } }
 
 /*----------------------------------------------
-    # Nav bar 
+    # Nav bar
 ----------------------------------------------*/
 .header-top {
   background: #F5F5F5;
@@ -2704,7 +2704,7 @@ ul {
   position: absolute; }
 
 
-  
+
 
 /* aa */
 .collection-slider-03-v2 .slick-prev {
@@ -4583,7 +4583,7 @@ ul {
     color: #141414;
     text-transform: uppercase;
     /* font-family: var(--body-font);  */
-    font-family: "TradeGothicLT", sans-serif; 
+    font-family: "TradeGothicLT", sans-serif;
   }
 
   .center-f{
@@ -4652,7 +4652,7 @@ ul {
 
   .breadcrumb-area-pdetail {
     background: #FAFAFA;
-    padding: 5px 0px; 
+    padding: 5px 0px;
   }
 
   .breadcrumb-area-pdetail .breadcrumb-inner .page-title {
@@ -4698,7 +4698,7 @@ ul {
         font-family: var(--secondary-font);
         font-weight: 400;
         font-size: 18px; }
-        
+
 
 
 .breadcrumb-inner .page-list {
@@ -5447,7 +5447,7 @@ ul.filter-main-nav > li:hover > a {
 
 .collection-area .content-part .price {
   font-size: 1.25em;
-  color: #7a8444; 
+  color: #7a8444;
   /* font-family: 'Josefin Sans'; */
   font-family: "Raleway", Sans-serif;
 }
@@ -6673,10 +6673,10 @@ ul.filter-main-nav > li:hover > a {
           line-height: 26px; }
 
 .footer-style-2 {
-  background: #fff; 
+  background: #fff;
 }
   .footer-style-2 .widget-title {
-    color: #000 !important; 
+    color: #000 !important;
     font-weight: 700;
     letter-spacing: .025em;
     font-size: .875em;
@@ -6684,8 +6684,8 @@ ul.filter-main-nav > li:hover > a {
   .footer-style-2 .contact-widget .contact_info_list li.single-info-item .details {
     color: #000 !important; font-weight: 700;font-size: .875em;}
   .footer-style-2 .widget.widget_nav_menu ul li a {
-    color: #000 !important; 
-    font-weight: 700; 
+    color: #000 !important;
+    font-weight: 700;
     font-size: .875em;
   }
     .footer-style-2 .widget.widget_nav_menu ul li a:hover {
@@ -6747,7 +6747,44 @@ ul.filter-main-nav > li:hover > a {
   cursor: pointer;
   -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
-  display: none; }
+  /* display: none; */
+}
+.Song-Thumbnail-1{
+  border-radius: 100%;
+  animation:spin 10s linear infinite;
+  -webkit-animation:spin 10s linear infinite;
+  -moz-animation:spin 10s linear infinite;
+}
+
+@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
+
+.Pause-Play-Button-1 {
+  position: absolute;
+  top: 30px;
+  display: flex;
+  justify-content: center;
+  width: 30px;
+  height: 22px;
+  margin: 0 32px;
+}
+.back-to-top-1 {
+  position: fixed;
+  right: 30px;
+  bottom: 10px;
+  width: 80px;
+  height: 80px;
+  color: var(--main-color);
+  text-align: center;
+  line-height: 45px;
+  z-index: 99;
+  font-size: 30px;
+  cursor: pointer;
+  /* -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); */
+  /* box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); */
+  /* display: none; */
+}
 
 /*-------------------------
     ## Preloader Css
@@ -7130,6 +7167,7 @@ ul.filter-main-nav > li:hover > a {
       background: #000; }
   .btn-video {
     border: 1px solid #F5F5F5;
+    width: 150px;
     padding: 18px 22px;
     margin-left: 10px;
     border-radius: 0px; }
