@@ -73,7 +73,7 @@ export default function Home() {
                 <img className="Song-Thumbnail-1" src={RecklessImg} alt="tet" />
                 <div className="Control-Button-Group-1">
                   <div className="Pause-Play-Button-1" onClick={handlePausePlayClick}>
-                    <NextIcon />
+                    {isPlay ? <PauseIcon /> : <PlayIcon />}
                   </div>
                 </div>
             </div>
