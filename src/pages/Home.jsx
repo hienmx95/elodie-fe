@@ -70,7 +70,7 @@ export default function Home() {
             <NewArrivalV4 />
             <Footer customclass="margin-top-80" />
 
-            <div className="dvd-play">
+            {/* <div className="dvd-play">
                 <img className="Song-Thumbnail-1" src={RecklessImg} alt="tet" />
                 <div className="Control-Button-Group-1">
                   <div className="Pause-Play-Button-1" onClick={handlePausePlayClick}>
@@ -84,7 +84,7 @@ export default function Home() {
               onLoadedData={handleLoadedData}
               onTimeUpdate={() => setCurrentTime(audioRef.current.currentTime)}
               onEnded={() => setPlay(false)}
-            />
+            /> */}
         </>
     );
 }
