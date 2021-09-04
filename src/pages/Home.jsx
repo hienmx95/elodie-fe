@@ -17,7 +17,7 @@ import PauseIcon from "../icons/PauseIcon";
 import PlayIcon from "../icons/PlayIcon";
 import audios from "../audios";
 // import "../audio-home.scss";
-import "../audio.scss";
+import "../audio-home.scss";
 export default function Home() {
     
   const audioRef = useRef();
@@ -71,9 +71,9 @@ export default function Home() {
             <Footer customclass="margin-top-80" />
 
             <div className="dvd-play">
-                <img className="Song-Thumbnail" src={RecklessImg} alt="tet" />
-                <div className="Control-Button-Group">
-                  <div className="Pause-Play-Button" onClick={handlePausePlayClick}>
+                <img className="Song-Thumbnail-1" src={RecklessImg} alt="tet" />
+                <div className="Control-Button-Group-1">
+                  <div className="Pause-Play-Button-1" onClick={handlePausePlayClick}>
                     {isPlay ? <PauseIcon /> : <PlayIcon />}
                   </div>
                 </div>
