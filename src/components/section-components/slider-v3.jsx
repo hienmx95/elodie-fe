@@ -73,7 +73,7 @@ export default function SliderV3() {
                                 <PrevIcon />
                               </div>
                               <div className="Pause-Play-Button" onClick={handlePausePlayClick}>
-                                <NextIcon />
+                                {isPlay ? <PauseIcon /> : <PlayIcon />}
                               </div>
                               <div
                                 className="Next-Button"
