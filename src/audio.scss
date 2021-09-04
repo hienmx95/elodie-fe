@@ -30,6 +30,9 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    > * {
+      cursor: pointer;
+    }
   }
   
   .Prev-Button,
@@ -43,5 +46,8 @@
     width: 14px;
     height: 22px;
     margin: 0 32px;
+    svg {
+      height: 22px;
+    }
   }
   
