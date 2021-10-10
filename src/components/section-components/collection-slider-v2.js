@@ -18,10 +18,10 @@ class CollectionSlider extends Component {
               <div className="col-lg-12">
                 <div className="collection-style-04 margin-top-30">
                   <div className="thumb">
-                    <img src={publicUrl+"assets/img/collection/hand.png"} alt="" />
+                    <img src={publicUrl+"assets/img/collection/leyla.jpg"} alt="" />
                   </div>
                   <div className="content">
-                    <h3>Blooming<br /> Orchid</h3>
+                    <h3>Leyla</h3>
                     <div className="btn-wrapper">
                       <Link to="/collection-full" className="btn btn-collection2">Shop Now</Link>
                     </div>
@@ -31,49 +31,23 @@ class CollectionSlider extends Component {
               <div className="col-lg-12">
                 <div className="collection-style-04 margin-top-30">
                   <div className="content">
-                    <h3>Peach<br /> Tea</h3>
+                    <h3>Blossom</h3>
                     <div className="btn-wrapper">
                       <Link to="/collection-full" className="btn btn-collection2">Shop Now</Link>
                     </div>
                   </div>
                   <div className="thumb">
-                    <img src={publicUrl+"assets/img/collection/hand.png"} alt="" />
+                    <img src={publicUrl+"assets/img/collection/Blossom.jpg"} alt="" />
                   </div>
                 </div>
               </div>
               <div className="col-lg-12">
                 <div className="collection-style-04 margin-top-30">
                   <div className="thumb">
-                    <img src={publicUrl+"assets/img/collection/hand.png"} alt="" />
+                    <img src={publicUrl+"assets/img/collection/St. Honore.jpg"} alt="" />
                   </div>
                   <div className="content">
-                    <h3>Blooming<br /> Orchid</h3>
-                    <div className="btn-wrapper">
-                      <Link to="/collection-full" className="btn btn-collection2">Shop Now</Link>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div className="col-lg-12">
-                <div className="collection-style-04 margin-top-30">
-                  <div className="content">
-                    <h3>Peach<br /> Tea</h3>
-                    <div className="btn-wrapper">
-                      <Link to="/collection-full" className="btn btn-collection2">Shop Now</Link>
-                    </div>
-                  </div>
-                  <div className="thumb">
-                    <img src={publicUrl+"assets/img/collection/hand.png"} alt="" />
-                  </div>
-                </div>
-              </div>
-              <div className="col-lg-12">
-                <div className="collection-style-04 margin-top-30">
-                  <div className="thumb">
-                    <img src={publicUrl+"assets/img/collection/hand.png"} alt="" />
-                  </div>
-                  <div className="content">
-                    <h3>Blooming<br /> Orchid</h3>
+                    <h3>St. Honore</h3>
                     <div className="btn-wrapper">
                       <Link to="/collection-full" className="btn btn-collection2">Shop Now</Link>
                     </div>

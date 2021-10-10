@@ -429,7 +429,7 @@
             arrows: true,
             infinite: true,
             speed: 300,
-            slidesToShow: 5,
+            slidesToShow: 3,
             slidesToScroll: 2,
             responsive: [
                 {
@@ -454,7 +454,7 @@
             arrows: true,
             infinite: true,
             speed: 300,
-            slidesToShow: 5,
+            slidesToShow: 3,
             slidesToScroll: 2,
             responsive: [
                 {

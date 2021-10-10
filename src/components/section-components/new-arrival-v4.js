@@ -17,9 +17,9 @@ class NewArivalV3 extends Component {
             <div className="col-lg-12 new-arivalv4">
               <div className="section-title-02 text-center">
                 <img className="logo-resize-110 center-f" src={publicUrl+"assets/img/elodie-logo.svg"} alt="" />
-                <h6>SIMPLE. COMFORTABLE. PURPOSEFUL. AMERICAN.</h6>
-                <h6>WE MANUFACTURE ALL OF OUR PRODUCTS</h6>
-                <h6>IN THE UNITED STATES.</h6>
+                <h6>Joyful and Comfy.</h6>
+                <h6>Let’s share meaningful moments in our lives</h6>
+                <h6>Welcom to Élodie’s home.</h6>
               </div>
             </div>
             {/* <div className="col-lg-8">

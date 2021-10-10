@@ -25,8 +25,8 @@ export default function Home() {
             <DeliveryV3 />
             <NewArrivalV3 />
             <CollectionSliderV2 />
-            <TrendingV2 />
-            <SaleBannerV2 />
+            {/* <TrendingV2 />
+            <SaleBannerV2 /> */}
             <Video />
             <Instagram />
             <NewArrivalV4 />

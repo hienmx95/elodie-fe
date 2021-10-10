@@ -26,22 +26,22 @@ class Instagram extends Component {
           <div className="col-md-12">
             <div className="instagram-slider">
               <div className="thumb">
-                <img src={publicUrl+"assets/img/instagram/saint-candle.png" }alt="" />
+                <img src={publicUrl+"assets/img/instagram/i1.jpg" }alt="" />
               </div>
               <div className="thumb">
-                <img src={publicUrl+"assets/img/instagram/book.png" }alt="" />
+                <img src={publicUrl+"assets/img/instagram/i2.jpg" }alt="" />
               </div>
               <div className="thumb">
-                <img src={publicUrl+"assets/img/instagram/falling-in-love.png"} alt="" />
+                <img src={publicUrl+"assets/img/instagram/i3.jpg"} alt="" />
               </div>
               <div className="thumb">
-                <img src={publicUrl+"assets/img/instagram/rot.png"} alt="" />
+                <img src={publicUrl+"assets/img/instagram/i4.jpg"} alt="" />
               </div>
               <div className="thumb">
-                <img src={publicUrl+"assets/img/instagram/black-dahlia.png"} alt="" />
+                <img src={publicUrl+"assets/img/instagram/i5.jpg"} alt="" />
               </div>
               <div className="thumb">
-                <img src={publicUrl+"assets/img/instagram/natural-coconut.png"} alt="" />
+                <img src={publicUrl+"assets/img/instagram/i6.jpg"} alt="" />
               </div>
             </div>
           </div>
