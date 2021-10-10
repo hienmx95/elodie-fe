@@ -217,63 +217,15 @@ class NavbarV5 extends Component {
         let anchor = '#'
         return ( 
           <div className="stoon-navbar absolute-nav">
-            <div className="header-top dark-header-top d-none d-sm-block">
-              <div className="container-fluid">
-                <div className="row align-items-center">
-                  <div className="col-lg-6 col-6">
-                    <div className="contact">
-                      <a href="tel:+496170961709"><i className="icon-call-header" /> (939) 353-1107</a>
-                      <a href="#"><i className="icon-email-subscribe" /> support@example.com</a>
-                    </div>
-                  </div>
-                  <div className="col-lg-6 col-6">
-                    <div className="right-nav text-right">
-                      <ul>
-                        <li>
-                          <div className="select-menu">
-                            <select className="menu-select">
-                              <option>English</option>
-                              <option>Bangali</option>
-                            </select>
-                            <i className="fa fa-chevron-down" />
-                          </div>
-                        </li>
-                        <li>
-                          <div className="select-menu">
-                            <select className="menu-select">
-                              <option>USD</option>
-                              <option>GBP</option>
-                              <option>AUD</option>
-                              <option>CAD</option>
-                            </select>
-                            <i className="fa fa-chevron-down" />
-                          </div>
-                        </li>
-                        <li>
-                          <a href="#"><i className="icon-user" /></a>
-                          <ul className="user-dropdown">
-                            <li><a href="#">Sign In | Join</a></li>
-                            <li><a href="#"><i className="icon-user" /> My Account</a></li>
-                            <li><a href="#"><i className="fa fa-briefcase" /> My Orders</a></li>
-                            <li><a href="#"><i className="fa fa-reply" /> Returns Information</a></li>
-                            <li><a href="#"><i className="fa fa-commenting-o" /> Contact Preferences</a></li>
-                          </ul>
-                        </li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
             <nav className="navbar navbar-area navbar-expand-lg nav-style-01">
               <div className="container-fluid nav-container">
                 <div className="row">
-                  <div className="col-lg-3 col-4 order-1 align-self-center">
+                  <div className="col-lg-2 col-xl-1 col-4 order-1 align-self-center">
                     <div className="logo">
-                      <Link to="/"><img src="assets/img/logo-white.png" alt="" /></Link>
+                      <Link to="/"><img src="assets/img/Elodie_logo_white_no_chandelle.svg" alt="" /></Link>
                     </div>
                   </div>
-                  <div className="col-lg-6 order-3 order-lg-2">
+                  <div className="col-lg-7 col-xl-7 order-3 order-lg-2">
                     <div className="collapse navbar-collapse" id="shop-menu">
                       <ul className="navbar-nav menu-open">
                         <li className="menu-item-has-children">
@@ -311,14 +263,11 @@ class NavbarV5 extends Component {
                       </ul>
                     </div>
                   </div>
-                  <div className="col-lg-3 col-8 justify-content-end d-flex order-2 order-lg-3">
+				  <div className="col-lg-3 col-xl-4 col-8 justify-content-end d-flex order-2 order-lg-3">
                     <div className="nav-right-part nav-right-part-02">
                       <ul>
-                        <li>
-                          <a href="#" id="search"><i className="icon-search" /></a>
-                        </li>
-                        <li>
-                          <a href="#"><i className="icon-heart" /><span className="badge badge-pink">2</span></a>
+					  <li className="menu-item-has-children">
+                          <a href="#">SHOP</a>
                         </li>
                         <li className="has-dropdown">
                           <a href="#"><i className="icon-add-to-cat" /><span className="badge  total-count"></span></a>
