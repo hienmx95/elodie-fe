@@ -15,7 +15,7 @@ class SliderV5 extends Component {
             <div className="banner-slider">
               <div>
                 <div className="height__100vh d-flex align-items-center">
-                  <iframe src="https://player.vimeo.com/video/628589753?background=1&autoplay=1&loop=1&mute=1&portrait=0&byline=0&color=" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen title="DSCF6096.MOV"></iframe>
+                  <iframe src="https://player.vimeo.com/video/628643582?background=1&autoplay=1&loop=1&mute=1&portrait=0&byline=0&color=" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen title="DSCF6096.MOV"></iframe>
                 </div>
               </div>
             </div>
