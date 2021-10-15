@@ -44,7 +44,7 @@ class CollectionSlider extends Component {
               <div className="col-lg-12">
                 <div className="collection-style-04 margin-top-30">
                   <div className="thumb">
-                    <img src={publicUrl+"assets/img/collection/comfy-2.jpg"} alt="" />
+                    <img src={publicUrl+"assets/img/collection/comfy-2.JPG"} alt="" />
                   </div>
                   <div className="content">
                     <h3>Comfy</h3>
