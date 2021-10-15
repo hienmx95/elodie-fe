@@ -2,7 +2,7 @@ import React, { Component, useState, useRef, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import parse from 'html-react-parser';
 import audios from "../../audios/st-audio";
-import RecklessImg from "../../images/reckless.jpg";
+import RecklessImg from "../../images/those-day.jpg";
 import PrevIcon from "../../icons/PrevIcon";
 import NextIcon from "../../icons/NextIcon";
 import PauseIcon from "../../icons/PauseIcon";
@@ -57,52 +57,52 @@ export default function SingleProductStHonore (){
 		          <div className="col-lg-7 col-md-6">
 		            <div className="slider-tabfor margin-top-20">
 					  <div className="single-item">
-		                <img src={publicUrl+"assets/img/product-details/leyla-detail-1.JPG"} alt="" />
+		                <img src={publicUrl+"assets/img/product-details/st-detail-3.JPG"} alt="" />
 		              </div>
 					  <div className="single-item">
-		                <img src={publicUrl+"assets/img/product-details/leyla-detail-2.JPG"} alt="" />
+		                <img src={publicUrl+"assets/img/product-details/st-detail-1.JPG"} alt="" />
 		              </div>
 					  <div className="single-item">
-		                <img src={publicUrl+"assets/img/product-details/leyla-detail-3.JPG"} alt="" />
+		                <img src={publicUrl+"assets/img/product-details/st-detail-6.JPG"} alt="" />
 		              </div>
 					  <div className="single-item">
-		                <img src={publicUrl+"assets/img/product-details/leyla-detail-4.JPG"} alt="" />
+		                <img src={publicUrl+"assets/img/product-details/st-detail-4.JPG"} alt="" />
 		              </div>
 					  <div className="single-item">
-		                <img src={publicUrl+"assets/img/product-details/leyla-detail-5.JPG"} alt="" />
+		                <img src={publicUrl+"assets/img/product-details/st-detail-5.JPG"} alt="" />
 		              </div>
 		            </div>
 		            <div className="slider-tabnav">
-		              <div className="single-item">
+					 <div className="single-item">
 		                <div className="img">
-		                  <img src={publicUrl+"assets/img/product-details/leyla-detail-1.JPG" }alt="" />
+		                  <img src={publicUrl+"assets/img/product-details/st-detail-3.JPG" }alt="" />
 		                </div>
 		              </div>
 		              <div className="single-item">
 		                <div className="img">
-		                  <img src={publicUrl+"assets/img/product-details/leyla-detail-2.JPG" }alt="" />
+		                  <img src={publicUrl+"assets/img/product-details/st-detail-1.JPG" }alt="" />
+		                </div>
+		              </div>
+		              <div className="single-item">
+		                <div className="img">
+		                  <img src={publicUrl+"assets/img/product-details/st-detail-6.JPG" }alt="" />
 		                </div>
 		              </div>
 					  <div className="single-item">
 		                <div className="img">
-		                  <img src={publicUrl+"assets/img/product-details/leyla-detail-3.JPG" }alt="" />
+		                  <img src={publicUrl+"assets/img/product-details/st-detail-4.JPG" }alt="" />
 		                </div>
 		              </div>
 					  <div className="single-item">
 		                <div className="img">
-		                  <img src={publicUrl+"assets/img/product-details/leyla-detail-4.JPG" }alt="" />
-		                </div>
-		              </div>
-					  <div className="single-item">
-		                <div className="img">
-		                  <img src={publicUrl+"assets/img/product-details/leyla-detail-5.JPG" }alt="" />
+		                  <img src={publicUrl+"assets/img/product-details/st-detail-5.JPG" }alt="" />
 		                </div>
 		              </div>
 		            </div>
 		          </div>
 		          <div className="col-lg-5 col-md-6">
 		            <div className="content-part margin-top-50">
-					  <h1 class="product_name title">St. Honore Candle</h1>
+					  <h1 class="product_name title">St. Honore</h1>
 					  <div class="description content has-padding-top">
 						  <p class="product-page__tagline">LUXURY SCENTED CANDLE</p>
 						  <p class="p1">Một chút kem mặn béo, một chút mịn màng của bơ cùng vài giọt vanilla mang đến một Honore tươi mới, ngon như một miếng bánh mới ra lò.</p>

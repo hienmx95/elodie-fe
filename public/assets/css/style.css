@@ -7496,15 +7496,6 @@ ul.filter-main-nav > li:hover > a {
     background-color: #000;
 }
 /* Start Customer Product Detail */
-h1.product_name.title {
-    font-family: ostia-regular;
-    text-align: center;
-    text-transform: uppercase;
-    margin-bottom: 19px;
-    font-size: 26px;
-    line-height: 30px;
-    letter-spacing: .06rem;
-}
 
 h1.product_name.title {
     font-family: 'ostia-regular';
@@ -7515,6 +7506,8 @@ h1.product_name.title {
     line-height: 30px;
     letter-spacing: .06rem;
     color:#000000;
+    font-family: 'cormorant', serif;
+    font-size: 42px !important;
 }
 .description.content.has-padding-top {
   padding: 0;

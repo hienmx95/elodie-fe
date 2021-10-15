@@ -56,11 +56,11 @@ export default function SingleProduct() {
 		        <div className="row">
 		          <div className="col-lg-7 col-md-6">
 		            <div className="slider-tabfor margin-top-20">
-					  <div className="single-item">
-		                <img src={publicUrl+"assets/img/product-details/leyla-detail-1.JPG"} alt="" />
+					 <div className="single-item">
+		                <img src={publicUrl+"assets/img/product-details/leyla-detail-2.JPG"} alt="" />
 		              </div>
 					  <div className="single-item">
-		                <img src={publicUrl+"assets/img/product-details/leyla-detail-2.JPG"} alt="" />
+		                <img src={publicUrl+"assets/img/product-details/leyla-detail-1.JPG"} alt="" />
 		              </div>
 					  <div className="single-item">
 		                <img src={publicUrl+"assets/img/product-details/leyla-detail-3.JPG"} alt="" />
@@ -73,14 +73,14 @@ export default function SingleProduct() {
 		              </div>
 		            </div>
 		            <div className="slider-tabnav">
-		              <div className="single-item">
+					  <div className="single-item">
 		                <div className="img">
-		                  <img src={publicUrl+"assets/img/product-details/leyla-detail-1.JPG" }alt="" />
+		                  <img src={publicUrl+"assets/img/product-details/leyla-detail-2.JPG" }alt="" />
 		                </div>
 		              </div>
 		              <div className="single-item">
 		                <div className="img">
-		                  <img src={publicUrl+"assets/img/product-details/leyla-detail-2.JPG" }alt="" />
+		                  <img src={publicUrl+"assets/img/product-details/leyla-detail-1.JPG" }alt="" />
 		                </div>
 		              </div>
 					  <div className="single-item">
@@ -102,7 +102,7 @@ export default function SingleProduct() {
 		          </div>
 		          <div className="col-lg-5 col-md-6">
 		            <div className="content-part margin-top-50">
-					  <h1 class="product_name title">Leyla Candle</h1>
+					  <h1 class="product_name title">Leyla</h1>
 					  <div class="description content has-padding-top">
 						  <p class="product-page__tagline">LUXURY SCENTED CANDLE</p>
 						  <p class="p1">Leyla mang hương thơm của đào tươi và trà đen hơi se. Các nốt hương vừa dịu nhẹ, mọng nước vừa kích thích vị giác vừa khơi gợi khứu giác sẽ nhanh chóng lấp đầy không gian của bạn ngay cả trong những ngày ảm đạm nhất!</p>
