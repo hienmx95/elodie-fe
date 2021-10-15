@@ -216,71 +216,18 @@ class NavbarV4 extends Component {
         let imgattr = 'logo'
         let anchor = '#'
         return (  <div className="stoon-navbar">
-              <div className="header-top d-none d-lg-block">
-                <div className="container-fluid">
-                  <div className="row align-items-center">
-                    <div className="col-lg-4 col-8">
-                      <div className="contact">
-                        <a href="tel:+496170961709"><i className="icon-call-header" /> (939) 353-1107</a>
-                        <a href="#"><i className="icon-email-subscribe" /> support@example.com</a>
-                      </div>
-                    </div>
-                    <div className="col-lg-4 d-none d-lg-block">
-                      <div className="shipping text-center">
-                        <p>FREE SHIPPING - <span>on all orders over $35*</span></p>
-                      </div>
-                    </div>
-                    <div className="col-lg-4 d-none d-lg-block">
-                      <div className="right-nav-02 text-right">
-                        <ul>
-                          <li>
-                            <div className="select-menu">
-                              <select className="menu-select">
-                                <option>English</option>
-                                <option>Bangali</option>
-                              </select>
-                              <i className="fa fa-chevron-down" />
-                            </div>
-                          </li>
-                          <li>
-                            <div className="select-menu">
-                              <select className="menu-select">
-                                <option>USD</option>
-                                <option>GBP</option>
-                                <option>AUD</option>
-                                <option>CAD</option>
-                              </select>
-                              <i className="fa fa-chevron-down" />
-                            </div>
-                          </li>
-                          <li>
-                            <a href="#"><i className="icon-user" /></a>
-                            <ul className="user-dropdown">
-                              <li><a href="#">Sign In | Join</a></li>
-                              <li><a href="#"><i className="icon-user" /> My Account</a></li>
-                              <li><a href="#"><i className="fa fa-briefcase" /> My Orders</a></li>
-                              <li><a href="#"><i className="fa fa-reply" /> Returns Information</a></li>
-                              <li><a href="#"><i className="fa fa-commenting-o" /> Contact Preferences</a></li>
-                            </ul>
-                          </li>
-                        </ul>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
               <nav className="navbar navbar-area navbar-expand-lg nav-style-01">
                 <div className="container-fluid nav-container">
                   <div className="row">
                     <div className="col-lg-2 col-xl-2 col-4 order-2 align-self-center text-lg-center">
-                      <div className="logo">
-                        <Link to="/"><img src={publicUrl+"assets/img/logo.png"} alt="" /></Link>
+                      <div className="logo logo-navav-4">
+                        <Link to="/"><img src={publicUrl+"assets/img/elodie-logo.svg"} alt="" /></Link>
                       </div>
                     </div>
                     <div className="col-lg-7 col-xl-5 order-3 order-lg-1">
                       <div className="collapse navbar-collapse" id="shop-menu">
                         <ul className="navbar-nav menu-open text-left">
-                          <li className="menu-item-has-children">
+                          {/* <li className="menu-item-has-children">
                             <a href="#">Home <i className="fa fa-angle-down" /></a>
                             <ul className="sub-menu">
                                <li><Link to="/">Home 01</Link></li>
@@ -289,16 +236,16 @@ class NavbarV4 extends Component {
                               <li><Link to="/home-v4">Home 04</Link></li>
                               <li><Link to="/home-v5">Home 05</Link></li>
                             </ul>
-                          </li>
-                          <li className="menu-item-has-children">
+                          </li> */}
+                          {/* <li className="menu-item-has-children">
                             <a href="#">Shop <i className="fa fa-angle-down" /></a>
                             <ul className="sub-menu">
                               <li><Link to="collection">Shop Grid</Link></li>
                               <li><Link to="collection-list">Shop List</Link></li>
                               <li><Link to="collection-full">Shop Full</Link></li>
                             </ul>
-                          </li>
-                          <li className="menu-item-has-children">
+                          </li> */}
+                          {/* <li className="menu-item-has-children">
                             <a href="#">Pages <i className="fa fa-angle-down" /></a>
                             <ul className="sub-menu">
                               <li><Link to="/blog">Blog</Link></li>
@@ -309,7 +256,7 @@ class NavbarV4 extends Component {
                               <li><Link to="/error">Error</Link></li>
                               <li><Link to="/comming-soon">Coming Soon</Link></li>
                             </ul>
-                          </li>
+                          </li> */}
                           <li><Link to="/about">About Us</Link></li>
                           <li><Link to="/contact">Contact us</Link></li>
                         </ul>
@@ -318,14 +265,15 @@ class NavbarV4 extends Component {
                     <div className="col-lg-3 col-xl-5 col-8 justify-content-end d-flex order-2 order-lg-3">
                       <div className="nav-right-part nav-right-part-02">
                         <ul>
-                          <li>
+                          {/* <li>
                             <a href="#" id="search"><i className="icon-search" /></a>
-                          </li>
-                          <li>
+                          </li> */}
+                          {/* <li>
                             <a href="#"><i className="icon-heart" /><span className="badge">2</span></a>
-                          </li>
+                          </li> */}
+						  <li><Link to="/about">Shop</Link></li>
                           <li className="has-dropdown">
-                            <a href="#"><i className="icon-add-to-cat" /><span className="badge total-count"></span></a>
+                            <a href="#"><i className="icon-add-to-cat" /><span className="badge"></span></a>
                             <ul> 
                                 <span  className="show-cart">
                                 </span>

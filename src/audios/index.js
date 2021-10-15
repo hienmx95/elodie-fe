@@ -1,13 +1,11 @@
-import XuanOiOLaiChoi from "./XuanOiOLaiChoi.mp3";
-import NgayXuanLongPhungSumVay from "./NgayXuanLongPhungSumVay.mp3";
-import DoanXuanCa from "./DoanXuanCa.mp3";
-import Reckless from "./Reckless-Madison-Beer.mp3";
+
+import Leyla from "./Mesto - Leyla [OUT NOW].mp3";
 
 const audios = [
   {
-    src: Reckless,
-    title: "Reckless",
-    artist: "Madison Beer",
+    src: Leyla,
+    title: "Leyla",
+    artist: "Mesto",
   },
 ];
 

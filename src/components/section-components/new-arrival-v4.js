@@ -16,10 +16,10 @@ class NewArivalV3 extends Component {
           <div className="row">
             <div className="col-lg-12 new-arivalv4">
               <div className="section-title-02 text-center">
-                <img className="logo-resize-110 center-f" src={publicUrl+"assets/img/elodie-logo.svg"} alt="" />
-                <h6>Joyful and Comfy.</h6>
-                <h6>Let’s share meaningful moments in our lives</h6>
-                <h6>Welcom to Élodie’s home.</h6>
+                {/* <img className="logo-resize-110 center-f" src={publicUrl+"assets/img/elodie-logo.svg"} alt="" /> */}
+                <h6 className="custom-font">Joyful, Optimistic and Comfy.</h6>
+                <h6 className="custom-font">Let’s share meaningful moments in our life</h6>
+                <h6 className="custom-font">Welcom to Élodie’s home.</h6>
               </div>
             </div>
             {/* <div className="col-lg-8">

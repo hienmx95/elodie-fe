@@ -117,17 +117,13 @@ class CollectionFull extends Component {
 				<div className="col-xl-4 col-lg-6 col-md-6 col-sm-6 col-12">
 					<div className="product-style-03 margin-top-40">
 						<div className="thumb">
-							<img src={publicUrl+"assets/img/shop/r1.png"} alt="" />
-							<ul className="cart-action">
-								<li><a className="add-to-cart" data-img="assets/img/shop/c4.png" data-name="Round neck sweater" data-price="450" href="#"><i className="icon-add-to-cat" /> </a></li>
-								<li><a href="#"><i className="icon-heart" /></a></li>
-							</ul>
-							<span className="sale">Sale! 13%</span>
+							<img src={publicUrl+"assets/img/product-details/leyla-detail-1.JPG"} alt="" />
+							{/* <span className="sale">Sale! 13%</span> */}
 						</div>
 						<div className="content text-center">
-							<h6 className="title stone-go-top"><Link to="/product-details">Hinoki & Bamboo</Link></h6>
+							<h6 className="title stone-go-top"><Link to="/product/leyla">Leyla Candle</Link></h6>
 							<div className="content-price d-flex align-self-center justify-content-center">
-								<span className="new-price">7.500.000 ₫</span>
+								<span className="new-price">380.000 ₫</span>
 							</div>
 						</div>
 					</div>
@@ -136,17 +132,17 @@ class CollectionFull extends Component {
 				<div className="col-xl-4 col-lg-6 col-md-6 col-sm-6 col-12">
 					<div className="product-style-03 margin-top-40">
 						<div className="thumb">
-							<img src={publicUrl+"assets/img/shop/r1.png"} alt="" />
-							<ul className="cart-action">
+							<img src={publicUrl+"assets/img/product-details/blossom-detail-1.JPG"} alt="" />
+							{/* <ul className="cart-action">
 								<li><a className="add-to-cart" data-img="assets/img/shop/c4.png" data-name="Round neck sweater" data-price="450" href="#"><i className="icon-add-to-cat" /> </a></li>
 								<li><a href="#"><i className="icon-heart" /></a></li>
 							</ul>
-							<span className="sale">Sale! 13%</span>
+							<span className="sale">Sale! 13%</span> */}
 						</div>
 						<div className="content text-center">
-							<h6 className="title stone-go-top"><Link to="/product-details">Hinoki & Bamboo</Link></h6>
+							<h6 className="title stone-go-top"><Link to="/product/blossom">Blossom Candle</Link></h6>
 							<div className="content-price d-flex align-self-center justify-content-center">
-								<span className="new-price">7.500.000 ₫</span>
+								<span className="new-price">360.000 ₫</span>
 							</div>
 						</div>
 					</div>
@@ -155,74 +151,17 @@ class CollectionFull extends Component {
 				<div className="col-xl-4 col-lg-6 col-md-6 col-sm-6 col-12">
 					<div className="product-style-03 margin-top-40">
 						<div className="thumb">
-							<img src={publicUrl+"assets/img/shop/r1.png"} alt="" />
-							<ul className="cart-action">
+							<img src={publicUrl+"assets/img/product-details/st-honore-detail-1.JPG"} alt="" />
+							{/* <ul className="cart-action">
 								<li><a className="add-to-cart" data-img="assets/img/shop/c4.png" data-name="Round neck sweater" data-price="450" href="#"><i className="icon-add-to-cat" /> </a></li>
 								<li><a href="#"><i className="icon-heart" /></a></li>
 							</ul>
-							<span className="sale">Sale! 13%</span>
+							<span className="sale">Sale! 13%</span> */}
 						</div>
 						<div className="content text-center">
-							<h6 className="title stone-go-top"><Link to="/product-details">Hinoki & Bamboo</Link></h6>
+							<h6 className="title stone-go-top"><Link to="/product/st-honore">St.Honore Candle</Link></h6>
 							<div className="content-price d-flex align-self-center justify-content-center">
-								<span className="new-price">7.500.000 ₫</span>
-							</div>
-						</div>
-					</div>
-				</div>
-
-				<div className="col-xl-4 col-lg-6 col-md-6 col-sm-6 col-12">
-					<div className="product-style-03 margin-top-40">
-						<div className="thumb">
-							<img src={publicUrl+"assets/img/shop/r1.png"} alt="" />
-							<ul className="cart-action">
-								<li><a className="add-to-cart" data-img="assets/img/shop/c4.png" data-name="Round neck sweater" data-price="450" href="#"><i className="icon-add-to-cat" /> </a></li>
-								<li><a href="#"><i className="icon-heart" /></a></li>
-							</ul>
-							<span className="sale">Sale! 13%</span>
-						</div>
-						<div className="content text-center">
-							<h6 className="title stone-go-top"><Link to="/product-details">Hinoki & Bamboo</Link></h6>
-							<div className="content-price d-flex align-self-center justify-content-center">
-								<span className="new-price">7.500.000 ₫</span>
-							</div>
-						</div>
-					</div>
-				</div>
-
-				<div className="col-xl-4 col-lg-6 col-md-6 col-sm-6 col-12">
-					<div className="product-style-03 margin-top-40">
-						<div className="thumb">
-							<img src={publicUrl+"assets/img/shop/r1.png"} alt="" />
-							<ul className="cart-action">
-								<li><a className="add-to-cart" data-img="assets/img/shop/c4.png" data-name="Round neck sweater" data-price="450" href="#"><i className="icon-add-to-cat" /> </a></li>
-								<li><a href="#"><i className="icon-heart" /></a></li>
-							</ul>
-							<span className="sale">Sale! 13%</span>
-						</div>
-						<div className="content text-center">
-							<h6 className="title stone-go-top"><Link to="/product-details">Hinoki & Bamboo</Link></h6>
-							<div className="content-price d-flex align-self-center justify-content-center">
-								<span className="new-price">7.500.000 ₫</span>
-							</div>
-						</div>
-					</div>
-				</div>
-
-				<div className="col-xl-4 col-lg-6 col-md-6 col-sm-6 col-12">
-					<div className="product-style-03 margin-top-40">
-						<div className="thumb">
-							<img src={publicUrl+"assets/img/shop/r1.png"} alt="" />
-							<ul className="cart-action">
-								<li><a className="add-to-cart" data-img="assets/img/shop/c4.png" data-name="Round neck sweater" data-price="450" href="#"><i className="icon-add-to-cat" /> </a></li>
-								<li><a href="#"><i className="icon-heart" /></a></li>
-							</ul>
-							<span className="sale">Sale! 13%</span>
-						</div>
-						<div className="content text-center">
-							<h6 className="title stone-go-top"><Link to="/product-details">Hinoki & Bamboo</Link></h6>
-							<div className="content-price d-flex align-self-center justify-content-center">
-								<span className="new-price">7.500.000 ₫</span>
+								<span className="new-price">380.000 ₫</span>
 							</div>
 						</div>
 					</div>

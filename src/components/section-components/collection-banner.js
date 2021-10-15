@@ -17,21 +17,9 @@ class CollectionBanner extends Component {
             <div className="col-lg-4 stone-go-top">
               <div className="collection-style-01 margin-top-20">
                 <div className="thumb">
-                  <img src={ publicUrl+"assets/img/collection/1.png"} alt="" />
+                  <img src={ publicUrl+"assets/img/collection/blosssom-detail-related.JPG"} alt="" />
                   <div className="content">
                     <h3>WOMEN</h3>
-                    <h6>Collection</h6>
-                    <Link to="/collection-full">view collection</Link>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="col-lg-4 stone-go-top">
-              <div className="collection-style-01 margin-top-20">
-                <div className="thumb">
-                  <img src={ publicUrl+"assets/img/collection/2.png"} alt="" />
-                  <div className="content">
-                    <h3>MEN</h3>
                     <h6>Collection</h6>
                     <Link to="/collection-full">view collection</Link>
                   </div>

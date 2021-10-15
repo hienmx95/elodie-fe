@@ -218,27 +218,55 @@ class NavbarV2 extends Component {
         let imgattr = 'logo'
         let anchor = '#'
         return (
+		<div>	
+			<div className="sidebar-menu" id="sidebar-menu">
+                  <button className="sidebar-menu-close">X</button>
+                  <div className="sidebar-inner">
+                    <div className="sidebar-logo logo-navav-4">
+                      <img src={publicUrl+"assets/img/elodie-logo.svg"} alt="" />
+                    </div>
+                    <div className="sidemenu-text">
+                      <p>Joyful and Comfy. Let’s share meaningful moments in our life Welcom to Élodie’s home</p>
+                    </div>
+                    <div className="sidebar-contact">
+                      <h4>Contact Us</h4>
+                      <ul>
+                        <li><i className="fa fa-map-marker" />173 Xuân Thủy, Cầu Giấy, Hà Nội</li>
+                        <li><i className="fa fa-envelope" />support@elodie.com.vn</li>
+                        <li><i className="fa fa-phone" />(+84) 0986.279.928 - 0969.781.710</li>
+                      </ul>
+                    </div>
+                    <div className="sidebar-subscribe">
+                      <input type="text" placeholder="Email" />
+                      <button><i className="fa fa-long-arrow-right" /></button>
+                    </div>
+                    <div className="social-link">
+                      <ul>
+                        <li><a href="https://www.facebook.com/elodiechandelle.home"><i className="fa fa-facebook-f" /></a></li>
+                        <li><a href="https://www.instagram.com/elodie.chandelle"><i className="fa fa-instagram" /></a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
            <div className="stoon-navbar">
             <div className="header-top dark-header-top d-none d-md-block">
               <div className="container-fluid">
                 <div className="row align-items-center">
                   <div className="col-lg-4 col-8">
                     <div className="contact">
-                      <a href="tel:+496170961709"><i className="icon-call-header" /> (939) 353-1107</a>
-                      <a href="#"><i className="icon-email-subscribe" /> support@example.com</a>
+                      <a href="tel:+496170961709"><i className="icon-call-header" /> (0986) 279-928</a>
+                      <a href="#"><i className="icon-email-subscribe" /> support@elodie.com.vn</a>
                     </div>
                   </div>
                   <div className="col-lg-4 d-none d-lg-block">
                     <div className="social">
                       <ul className="nav-social justify-lg-content-center justify-content-center">
-                        <li><a href="#"><i className="icon-facebook" /></a></li>
-                        <li><a href="#"><i className="icon-instagram" /></a></li>
-                        <li><a href="#"><i className="icon-pinterest" /></a></li>
-                        <li><a href="#"><i className="icon-youtube" /></a></li>
+                        <li><a href="https://www.facebook.com/elodiechandelle.home"><i className="icon-facebook" /></a></li>
+                        <li><a href="https://www.instagram.com/elodie.chandelle"><i className="icon-instagram" /></a></li>
                       </ul>
                     </div>
                   </div>
-                  <div className="col-lg-4 col-4">
+                  {/* <div className="col-lg-4 col-4">
                     <div className="right-nav text-right">
                       <ul>
                         <li>
@@ -273,7 +301,7 @@ class NavbarV2 extends Component {
                         </li>
                       </ul>
                     </div>
-                  </div>
+                  </div> */}
                 </div>
               </div>
             </div>
@@ -281,14 +309,14 @@ class NavbarV2 extends Component {
               <div className="container-fluid nav-container">
                 <div className="row">
                   <div className="col-lg-3 col-4 order-1 align-self-center">
-                    <div className="logo">
-                      <Link to="/"><img src={publicUrl+"assets/img/logo.png"} alt="" /></Link>
+                    <div className="logo logo-navav-4">
+                      <Link to="/"><img src={publicUrl+"assets/img/elodie-logo.svg"} alt="" /></Link>
                     </div>
                   </div>
                   <div className="col-lg-6 order-3 order-lg-2">
                     <div className="collapse navbar-collapse" id="shop-menu">
                       <ul className="navbar-nav menu-open">
-                        <li className="menu-item-has-children">
+                        {/* <li className="menu-item-has-children">
                           <a href="#">Home <i className="fa fa-angle-down" /></a>
                           <ul className="sub-menu">
                             <li><Link to="/">Home 01</Link></li>
@@ -305,8 +333,8 @@ class NavbarV2 extends Component {
                             <li><Link to="collection-list">Shop List</Link></li>
                             <li><Link to="collection-full">Shop Full</Link></li>
                           </ul>
-                        </li>
-                        <li className="menu-item-has-children">
+                        </li> */}
+                        {/* <li className="menu-item-has-children">
                           <a href="#">Pages <i className="fa fa-angle-down" /></a>
                           <ul className="sub-menu">
                             <li><Link to="/blog">Blog</Link></li>
@@ -317,28 +345,30 @@ class NavbarV2 extends Component {
                           	<li><Link to="/error">Error</Link></li>
                             <li><Link to="/comming-soon">Coming Soon</Link></li>
                           </ul>
-                        </li>
+                        </li> */}
+						 <li><Link to="/faq">FAQ</Link></li>
+						 <li><a id="navigation-button">Contact us</a></li>
                          <li><Link to="/about">About Us</Link></li>
-                         <li><Link to="/contact">Contact us</Link></li>
                       </ul>
                     </div>
                   </div>
                   <div className="col-lg-3 col-8 justify-content-end d-flex order-2 order-lg-3">
                     <div className="nav-right-part nav-right-part-02">
                       <ul>
-                        <li>
+                        {/* <li>
                           <a href="#" id="search"><i className="icon-search" /></a>
                         </li>
                         <li>
                           <a href="#"><i className="icon-heart" /><span className="badge badge-green">2</span></a>
-                        </li>
+                        </li> */}
+						<li><Link to="/collection-full">SHOP</Link></li>
                         <li className="has-dropdown">
-                          <a href="#"><i className="icon-add-to-cat" /><span className="badge badge-green total-count"></span></a>
-                          <ul> 
+                          <a href="/collection-full"><i className="icon-add-to-cat" /><span className="badge badge-green"></span></a>
+                          {/* <ul> 
                             <span  className="show-cart">
                             </span>
                             <li><h6><span>Total price: $</span><span className="total-cart"></span></h6><div className="btn-wrapper"> <Link to="/shoping-cart" className="btn btn-cart">Go to cart</Link></div></li> 
-                       </ul>
+                       	   </ul> */}
                         </li>
                       </ul>
                     </div>
@@ -353,7 +383,7 @@ class NavbarV2 extends Component {
               </div>
             </nav>
           </div>
-
+		</div>
         )
     }
 }

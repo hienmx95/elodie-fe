@@ -216,81 +216,112 @@ class NavbarV5 extends Component {
         let imgattr = 'logo'
         let anchor = '#'
         return ( 
-          <div className="stoon-navbar absolute-nav">
-            <nav className="navbar navbar-area navbar-expand-lg nav-style-01">
-              <div className="container-fluid nav-container">
-                <div className="row">
-                  <div className="col-lg-2 col-xl-1 col-4 order-1 align-self-center">
-                    <div className="logo">
-                      <Link to="/"><img src="assets/img/Elodie_logo_white_no_chandelle.svg" alt="" /></Link>
+		  <div>
+				<div className="sidebar-menu" id="sidebar-menu">
+                  <button className="sidebar-menu-close">X</button>
+                  <div className="sidebar-inner">
+                    <div className="sidebar-logo logo-navav-4">
+                      <img src={publicUrl+"assets/img/elodie-logo.svg"} alt="" />
                     </div>
-                  </div>
-                  <div className="col-lg-7 col-xl-7 order-3 order-lg-2">
-                    <div className="collapse navbar-collapse" id="shop-menu">
-                      <ul className="navbar-nav menu-open">
-                        <li className="menu-item-has-children">
-                          <a href="#">Home <i className="fa fa-angle-down" /></a>
-                          <ul className="sub-menu">
-                            <li><Link to="/">Home 01</Link></li>
-                            <li><Link to="/home-v2">Home 02</Link></li>
-                            <li><Link to="/home-v3">Home 03</Link></li>
-                            <li><Link to="/home-v4">Home 04</Link></li>
-                            <li><Link to="/home-v5">Home 05</Link></li>
-                          </ul>
-                        </li>
-                        <li className="menu-item-has-children">
-                          <a href="#">Shop <i className="fa fa-angle-down" /></a>
-                          <ul className="sub-menu">
-                            <li><Link to="collection">Shop Grid</Link></li>
-                            <li><Link to="collection-list">Shop List</Link></li>
-                            <li><Link to="collection-full">Shop Full</Link></li>
-                          </ul>
-                        </li>
-                        <li className="menu-item-has-children">
-                          <a href="#">Pages <i className="fa fa-angle-down" /></a>
-                          <ul className="sub-menu">
-                            <li><Link to="/blog">Blog</Link></li>
-                          	<li><Link to="/blog-details">Blog Details</Link></li>
-                          	<li><Link to="/product-details">Single Product</Link></li>
-                          	<li><Link to="/shoping-cart">Shoping Cart</Link></li>
-                          	<li><Link to="/faq">FAQ</Link></li>
-                          	<li><Link to="/error">Error</Link></li>
-                            <li><Link to="/comming-soon">Coming Soon</Link></li>
-                          </ul>
-                        </li>
-                        <li><Link to="/about">About Us</Link></li>
-                        <li><Link to="/contact">Contact us</Link></li>
-                      </ul>
+                    <div className="sidemenu-text">
+                      <p>Joyful and Comfy. Let’s share meaningful moments in our life Welcom to Élodie’s home</p>
                     </div>
-                  </div>
-				  <div className="col-lg-3 col-xl-4 col-8 justify-content-end d-flex order-2 order-lg-3">
-                    <div className="nav-right-part nav-right-part-02">
+                    <div className="sidebar-contact">
+                      <h4>Contact Us</h4>
                       <ul>
-					  <li className="menu-item-has-children">
-                          <a href="#">SHOP</a>
-                        </li>
-                        <li className="has-dropdown">
-                          <a href="#"><i className="icon-add-to-cat" /><span className="badge  total-count"></span></a>
-                          <ul> 
-                            <span  className="show-cart">
-                            </span>
-                            <li><h6><span>Total price: $</span><span className="total-cart"></span></h6><div className="btn-wrapper"> <Link to="/shoping-cart" className="btn btn-cart">Go to cart</Link></div></li> 
-                           </ul>
-                        </li>
+                        <li><i className="fa fa-map-marker" />173 Xuân Thủy, Cầu Giấy, Hà Nội</li>
+                        <li><i className="fa fa-envelope" />support@elodie.com.vn</li>
+                        <li><i className="fa fa-phone" />(+84) 0986.279.928 - 0969.781.710</li>
                       </ul>
                     </div>
-                    <div className="responsive-mobile-menu">
-                      <div className="menu toggle-btn d-block d-lg-none" data-toggle="collapse" data-target="#shop-menu" aria-expanded="false" role="button">
-                        <div className="icon-left" />
-                        <div className="icon-right" />
-                      </div>
+                    <div className="sidebar-subscribe">
+                      <input type="text" placeholder="Email" />
+                      <button><i className="fa fa-long-arrow-right" /></button>
+                    </div>
+                    <div className="social-link">
+                      <ul>
+                        <li><a href="https://www.facebook.com/elodiechandelle.home"><i className="fa fa-facebook-f" /></a></li>
+                        <li><a href="https://www.instagram.com/elodie.chandelle"><i className="fa fa-instagram" /></a></li>
+                      </ul>
                     </div>
                   </div>
                 </div>
-              </div>
-            </nav>
-          </div>
-
+			<div className="stoon-navbar absolute-nav">
+				<nav className="navbar navbar-area navbar-expand-lg nav-style-01">
+				<div className="container-fluid nav-container">
+					<div className="row">
+					<div className="col-lg-2 col-xl-1 col-4 order-1 align-self-center">
+						<div className="logo">
+						<Link to="/"><img src="assets/img/Elodie_logo_white_no_chandelle.svg" alt="" /></Link>
+						</div>
+					</div>
+					<div className="col-lg-7 col-xl-7 order-3 order-lg-2">
+						<div className="collapse navbar-collapse" id="shop-menu">
+						<ul className="navbar-nav menu-open navbar-nav-home">
+							{/* <li className="menu-item-has-children">
+							<a href="#">Home <i className="fa fa-angle-down" /></a>
+							<ul className="sub-menu">
+								<li><Link to="/">Home 01</Link></li>
+								<li><Link to="/home-v2">Home 02</Link></li>
+								<li><Link to="/home-v3">Home 03</Link></li>
+								<li><Link to="/home-v4">Home 04</Link></li>
+								<li><Link to="/home-v5">Home 05</Link></li>
+							</ul>
+							</li>
+							<li className="menu-item-has-children">
+							<a href="#">Shop <i className="fa fa-angle-down" /></a>
+							<ul className="sub-menu">
+								<li><Link to="collection">Shop Grid</Link></li>
+								<li><Link to="collection-list">Shop List</Link></li>
+								<li><Link to="collection-full">Shop Full</Link></li>
+							</ul>
+							</li>
+							<li className="menu-item-has-children">
+							<a href="#">Pages <i className="fa fa-angle-down" /></a>
+							<ul className="sub-menu">
+								<li><Link to="/blog">Blog</Link></li>
+								<li><Link to="/blog-details">Blog Details</Link></li>
+								<li><Link to="/product-details">Single Product</Link></li>
+								<li><Link to="/shoping-cart">Shoping Cart</Link></li>
+								<li><Link to="/faq">FAQ</Link></li>
+								<li><Link to="/error">Error</Link></li>
+								<li><Link to="/comming-soon">Coming Soon</Link></li>
+							</ul>
+							</li> */}
+							<li><Link to="/faq">FAQ</Link></li>
+							<li><a id="navigation-button">Contact us</a></li>
+							<li><Link to="/about">About us</Link></li>
+						</ul>
+						</div>
+					</div>
+					<div className="col-lg-3 col-xl-4 col-8 justify-content-end d-flex order-2 order-lg-3">
+						<div className="nav-right-part nav-right-part-02">
+						<ul>
+						<li className="menu-item-has-children">
+							<a href="/collection-full">SHOP</a>
+							</li>
+							<li className="has-dropdown">
+							<a href="collection-full"><i className="icon-add-to-cat" /><span className="badge"></span></a>
+							{/* <ul> 
+								<span  className="show-cart">
+								</span>
+								<li><h6><span>Total price: $</span><span className="total-cart"></span></h6><div className="btn-wrapper"> <Link to="/shoping-cart" className="btn btn-cart">Go to cart</Link></div></li> 
+							</ul> */}
+							</li>
+						</ul>
+						</div>
+						<div className="responsive-mobile-menu">
+						<div className="menu toggle-btn d-block d-lg-none" data-toggle="collapse" data-target="#shop-menu" aria-expanded="false" role="button">
+							<div className="icon-left" />
+							<div className="icon-right" />
+						</div>
+						</div>
+					</div>
+					</div>
+				</div>
+				</nav>
+			</div>
+		  </div>
         )
     }
 }

@@ -23,7 +23,7 @@ class CollectionSlider extends Component {
                   <div className="content">
                     <h3>Leyla</h3>
                     <div className="btn-wrapper">
-                      <Link to="/collection-full" className="btn btn-collection2">Shop Now</Link>
+                      <Link to="/product/leyla" className="btn btn-collection2">Shop Now</Link>
                     </div>
                   </div>
                 </div>
@@ -33,7 +33,7 @@ class CollectionSlider extends Component {
                   <div className="content">
                     <h3>Blossom</h3>
                     <div className="btn-wrapper">
-                      <Link to="/collection-full" className="btn btn-collection2">Shop Now</Link>
+                      <Link to="/product/blossom" className="btn btn-collection2">Shop Now</Link>
                     </div>
                   </div>
                   <div className="thumb">
@@ -49,7 +49,7 @@ class CollectionSlider extends Component {
                   <div className="content">
                     <h3>St. Honore</h3>
                     <div className="btn-wrapper">
-                      <Link to="/collection-full" className="btn btn-collection2">Shop Now</Link>
+                      <Link to="/product/st-honore" className="btn btn-collection2">Shop Now</Link>
                     </div>
                   </div>
                 </div>

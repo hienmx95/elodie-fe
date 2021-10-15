@@ -1,0 +1,2 @@
+"use strict";Shopify.theme.jsSidebar={init:function a(){var t=$("[data-sidebar-block__toggle-icon]");var o=$("[data-sidebar-block__content--collapsible]");t.on("click",(function(a){a.preventDefault();var t=$(this);var i=$(this).find(".icon");var e;var c=t.closest(".sidebar__block").find(o);t.hasClass("icon-style--carets")&&i.toggleClass("icon--rotate"),i.toggleClass("icon--active"),c.toggle()}))},unload:function a(){var t;$("[data-sidebar-block__toggle-icon]").off()}};
+//# sourceMappingURL=/s/files/1/0343/4964/5869/t/5/assets/z__jsSidebar.js.map?v=14556009781407657085

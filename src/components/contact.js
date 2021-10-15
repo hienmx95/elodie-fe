@@ -5,15 +5,16 @@ import ContactInfo from './section-components/contact-info';
 import ContactForm from './section-components/contact-form';
 import Instagram from './section-components/instagram';
 import Footer from './global-components/footer';
+import NavbarV2 from './global-components/navbar-v2';
+import FooterV2 from '../components/global-components/footer-v2';
 
 const Contact = () => {
     return <div>
-        <Navbar />
-        <PageHeader headertitle="Contact" />
-        <ContactInfo />
+        <NavbarV2 />
+        {/* <ContactInfo /> */}
         <ContactForm />
         <Instagram />
-        <Footer />
+        <FooterV2 />
     </div>
 }
 

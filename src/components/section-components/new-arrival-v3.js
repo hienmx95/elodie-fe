@@ -16,8 +16,8 @@ class NewArivalV3 extends Component {
           <div className="row">
             <div className="col-lg-12">
               <div className="section-title-02 text-center">
-                <h6>DISCOVER SOMETHING</h6>
-                <h3>ALL PRODUCTS</h3>
+                <h6>COLLECTION</h6>
+                <h3>TRUE SELF EVOLVES</h3>
               </div>
             </div>
             {/* <div className="col-lg-8">

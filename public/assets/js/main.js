@@ -132,6 +132,11 @@
             sidebarMenu.addClass('active');
             bodyOvrelay.addClass('active');
         });
+        $(document).on('click', '#about-us-active', function (e) {
+            e.preventDefault();
+            sidebarMenu.addClass('active');
+            bodyOvrelay.addClass('active');
+        });
     
         // mobile menu
         if ($(window).width() < 992) {
@@ -448,6 +453,33 @@
                 }
             ]
         });
+
+        // fashion slider
+        $('.collection-slider-about').slick({
+            dots: false,
+            arrows: true,
+            infinite: true,
+            speed: 300,
+            slidesToShow: 3,
+            slidesToScroll: 2,
+            responsive: [
+                {
+                    breakpoint: 760,
+                    settings: {
+                        slidesToShow: 1,
+                        slidesToScroll: 1
+                    }
+                },
+                {
+                    breakpoint: 480,
+                    settings: {
+                        slidesToShow: 1,
+                        slidesToScroll: 1
+                    }
+                }
+            ]
+        });
+
 
         $('.collection-slider-03-v2').slick({
             dots: false,

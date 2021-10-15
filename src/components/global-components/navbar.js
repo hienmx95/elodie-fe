@@ -340,7 +340,7 @@ class Navbar extends Component {
                                 <li><Link to="/comming-soon">Coming Soon</Link></li>
                               </ul>
                             </li>
-                            <li><Link to="/about">About Us</Link></li>
+                            <li><a id="navigation-button">About Us</a></li>
                             <li><Link to="/contact">Contact us</Link></li>
                           </ul>
                         </div>

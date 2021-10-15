@@ -26,7 +26,7 @@ class Footer_v2 extends Component {
               <div className="row">
                 <div className="col-lg-3 col-md-6 padding-bottom-30">
                 <div className="widget contact-widget">
-                    <h4 className="widget-title">SIGN UP TO RECEIVE 15% OFF</h4>
+                    <h4 className="widget-title">WELLCOM OPENING 5% DISCOUNT</h4>
                   </div>
                   <div class="newsletter__wrap footer-newsletter__wrap input-placeholder js-field-group">
                       <div class="form-inline__input input-placeholder">
@@ -50,7 +50,7 @@ class Footer_v2 extends Component {
                     <h4 className="widget-title">CONTACT</h4>
                    	 <ul className="stone-go-top">
                           <li className="widget-title"><Link to="/collection"><i className="icon-home-foother" />173 XUÂN THỦY, CẦU GIẤY, HN</Link></li>
-                          <li className="widget-title"><Link to="/contact"><i className="icon-call-footer" />0986279928</Link></li>
+                          <li className="widget-title"><Link to="/contact"><i className="icon-call-footer" />0986.279.928 - 0969.781.710</Link></li>
                         </ul>
                   </div>
                 </div>
@@ -58,8 +58,8 @@ class Footer_v2 extends Component {
                   <div className="widget widget_nav_menu">
                     <h4 className="widget-title">INFORMATION</h4>
                     <ul className="stone-go-top">
-                          <li><Link to="/collection">TIPS</Link></li>
-                          <li><Link to="/collection-list">FAQ</Link></li>
+                          <li><Link to="/">TIPS</Link></li>
+                          <li><Link to="/faq">FAQ</Link></li>
                      </ul>
                   </div>
                 </div>

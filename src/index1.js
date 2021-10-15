@@ -9,7 +9,7 @@ import HomeV5 from './components/home-v5';
 import About from './components/about';
 import Blog from './components/blog';
 import BlogDetails from './components/blog-details';
-import SingleProducts from './components/product-details';
+import SingleProducts from './components/product-detail-leyla';
 import ShoppingCart from './components/shoping-cart';
 import Faq from './components/faq';
 import Error from './components/error';

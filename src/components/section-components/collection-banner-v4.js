@@ -18,10 +18,10 @@ class CollectionBannerV4 extends Component {
             <div className="col-lg-6 col-md-6 col-sm-6 col-12">
               <div className="collection-style-03 margin-top-20">
                 <div className="thumb">
-                  <img src={publicUrl+"assets/img/collection/9.png"} alt="" />
+                  <img src={publicUrl+"assets/img/collection/blosssom-detail-related.JPG"} alt="" />
                   <div className="content">
-                    <h3>CLOTHING'S</h3>
-                    <h6>Collection</h6>
+                    <h3>BLOSSOM</h3>
+                    <h6>300,000đ</h6>
                     <div className="btn-wrapper">
                       <Link to="/collection-full" className="btn">Shop Now</Link>
                     </div>
@@ -34,8 +34,8 @@ class CollectionBannerV4 extends Component {
                 <div className="thumb">
                   <img src={publicUrl+"assets/img/collection/10.png"} alt="" />
                   <div className="content">
-                    <h3>ACCESSORIES</h3>
-                    <h6>Collection</h6>
+                    <h3>ST. HONORE</h3>
+                    <h6>250,000đ</h6>
                     <div className="btn-wrapper">
                       <Link to="/collection-full" className="btn">Shop Now</Link>
                     </div>
