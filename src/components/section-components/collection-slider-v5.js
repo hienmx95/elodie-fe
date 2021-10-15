@@ -18,7 +18,7 @@ class CollectionSlider extends Component {
               <div className="col-lg-12">
                 <div className="collection-style-04 margin-top-30">
                   <div className="thumb">
-                    <img src={publicUrl+"assets/img/collection/joyful-2.JPG"} alt="" />
+                    <img src={publicUrl+"assets/img/collection/joyful-2.jpg"} alt="" />
                   </div>
                   <div className="content">
                     <h3>Joyful</h3>
@@ -37,14 +37,14 @@ class CollectionSlider extends Component {
                     </div>
                   </div>
                   <div className="thumb">
-                    <img src={publicUrl+"assets/img/collection/optimistic.JPG"} alt="" />
+                    <img src={publicUrl+"assets/img/collection/optimistic.jpg"} alt="" />
                   </div>
                 </div>
               </div>
               <div className="col-lg-12">
                 <div className="collection-style-04 margin-top-30">
                   <div className="thumb">
-                    <img src={publicUrl+"assets/img/collection/comfy.JPG"} alt="" />
+                    <img src={publicUrl+"assets/img/collection/comfy.jpg"} alt="" />
                   </div>
                   <div className="content">
                     <h3>Comfy</h3>
