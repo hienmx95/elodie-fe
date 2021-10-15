@@ -49,7 +49,7 @@ class CollectionSlider extends Component {
                   <div className="content">
                     <h3>Comfy</h3>
                     <div className="btn-wrapper">
-                      <p>Retrieving data. Wait a few seconds and try to cut or copy again.</p>
+                      <p>With high qualified ingredients, Élodie's items are made to help you feel at ease around. We try our best to creat products that are safe and sound. </p>
                     </div>
                   </div>
                 </div>
