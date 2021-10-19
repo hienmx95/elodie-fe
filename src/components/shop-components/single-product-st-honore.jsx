@@ -95,7 +95,7 @@ export default function SingleProductStHonore (){
 		              </div>
 					  <div className="single-item">
 		                <div className="img">
-		                  <img src={publicUrl+"assets/img/product-details/st-detail-5.JPG" }alt="" />
+		                  <img src={publicUrl+"assets/img/product-details/st-detail-5.jpg" }alt="" />
 		                </div>
 		              </div>
 		            </div>
