@@ -22,7 +22,7 @@ class RelatedProduct extends Component {
 					  
 		            <div className="product-style-03 margin-top-30">
 		              <div className="thumb text-center">
-		                <img src={publicUrl+"assets/img/shop/leyla-r-1.JPG"} alt="" />
+		                <img src={publicUrl+"assets/img/product-details/leyla-detail-1.JPG"} alt="" />
 		                <span className="new">New</span>
 		              </div>
 		              <div className="content text-center">
@@ -33,7 +33,7 @@ class RelatedProduct extends Component {
 
 					<div className="product-style-03 margin-top-30">
 		              <div className="thumb text-center">
-		                <img src={publicUrl+"assets/img/shop/leyla-detail-2.JPG"} alt="" />
+		                <img src={publicUrl+"assets/img/product-details/blossom-detail-1.JPG"} alt="" />
 		                <span className="new">New</span>
 		              </div>
 		              <div className="content text-center">
