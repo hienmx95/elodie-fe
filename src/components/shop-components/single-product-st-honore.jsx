@@ -69,7 +69,7 @@ export default function SingleProductStHonore (){
 		                <img src={publicUrl+"assets/img/product-details/st-detail-4.JPG"} alt="" />
 		              </div>
 					  <div className="single-item">
-		                <img src={publicUrl+"assets/img/product-details/st-detail-5.jpg"} alt="" />
+		                <img src={publicUrl+"assets/img/product-details/st-detail-7.JPG"} alt="" />
 		              </div>
 		            </div>
 		            <div className="slider-tabnav">
@@ -95,7 +95,7 @@ export default function SingleProductStHonore (){
 		              </div>
 					  <div className="single-item">
 		                <div className="img">
-		                  <img src={publicUrl+"assets/img/product-details/st-detail-5.jpg" }alt="" />
+		                  <img src={publicUrl+"assets/img/product-details/st-detail-7.JPG" }alt="" />
 		                </div>
 		              </div>
 		            </div>
