@@ -7557,7 +7557,7 @@ p.modal_price.subtitle {
   font-size: 13px;
 }
 p.p1{
-  font-family: 'ostia-light';
+  font-family: 'Muli', sans-serif;
   color: #000;
 }
 .wrapper{
@@ -7675,4 +7675,7 @@ p.p1{
 }
 a:hover{
   color: rgba(122, 132, 68, 1);
+}
+.so-tab{
+  font-family: 'Muli', sans-serif !important;
 }

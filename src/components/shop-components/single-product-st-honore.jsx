@@ -52,6 +52,7 @@ export default function SingleProductStHonore (){
       <div className="collection-area wrapper">
 		  <div className="container">
 		    <div className="row">
+			
 		      <div className="col-lg-12 col-md-12">
 		        <div className="row">
 		          <div className="col-lg-7 col-md-6">
@@ -109,9 +110,6 @@ export default function SingleProductStHonore (){
 					  </div>
 					  <div class="product-form-container product-page">
 						<div class="flex_container_own">
-							{/* <div class="product_weight">
-								<p>340g /  60 hours</p>
-							</div> */}
 							<div class="product_price">
 								<p class="modal_price subtitle">
 									<span class="money">380,000₫</span>
@@ -130,7 +128,7 @@ export default function SingleProductStHonore (){
 								<div class="so-tab-content 1">
 									<p>
 										<p data-mce-fragment="1">
-											<strong>Mùi hương</strong>: Vanilla, butter and cream
+											Mùi hương: Vanilla, butter and cream
 										</p>
 									</p>
 								</div>
@@ -141,10 +139,10 @@ export default function SingleProductStHonore (){
 								<div class="so-tab-content 2">
 									<p>
 										<p data-mce-fragment="2">
-											<strong>Trọng lượng</strong>: 60oz
+											Trọng lượng: 60oz
 										</p>
-										<p><strong>Chất liệu</strong>:Sáp dừa 100% thiên nhiên</p>
-										<p><strong>Giờ đốt tối thiểu</strong>: 30 giờ</p>
+										<p>Sáp dừa 100% thiên nhiên</p>
+										<p>Giờ đốt tối thiểu: 30 giờ</p>
 										<p>Tinh dầu nhập khẩu</p>
 									</p>
 								</div>
@@ -154,7 +152,7 @@ export default function SingleProductStHonore (){
 								<label for="so-tab-3">CANDLE ETIQUETTE</label>
 								<div class="so-tab-content 3">
 									<p>
-										Mỗi lần đốt khoảng 2-3 tiếng  để  sáp tan đều. Hãy  chắc chắn để cắt bấc sau mỗi lần sử dụng.
+										Mỗi lần đốt khoảng 2-3 tiếng để sáp tan đều. Hãy chắc chắn cắt bấc sau mỗi lần sử dụng.
 									</p>
 								</div>
 							</div>
@@ -215,35 +213,6 @@ export default function SingleProductStHonore (){
 							/>
                     	</div>
 					  </div>
-					  {/* <div className="product-tab">
-						<div className="tab-content">
-							<div id="home" className="tab-pane fade in show active">
-								<ul className="tab-list">
-									<li><a href="#"><i className="icon-right-arrow-slider" /> Lightweight soft-touch woven</a></li>
-									<li><a href="#"><i className="icon-right-arrow-slider" /> High-rise waist</a></li>
-									<li><a href="#"><i className="icon-right-arrow-slider" /> Zip fly with hook and button fastening</a></li>
-									<li><a href="#"><i className="icon-right-arrow-slider" /> Slip pockets</a></li>
-									<li><a href="#"><i className="icon-right-arrow-slider" /> Waist belt</a></li>
-									<li><a href="#"><i className="icon-right-arrow-slider" /> Relaxed fit</a></li>
-									<li><a href="#"><i className="icon-right-arrow-slider" /> Machine wash</a></li>
-								</ul>
-							</div>
-						</div>
-					  </div> */}
-		              {/* <div className="btn-wrapper d-flex">
-		                <div className="input-group">
-		                  <div className="input-group-prepend align-self-center">
-		                    <a className="btn btn-sm" id="minus-btn"><i className="fa fa-minus" /></a>
-		                  </div>
-		                  <input type="number" id="qty_input" className="form-control text-right form-control-sm" defaultValue={1} min={1} />
-		                  <div className="input-group-prepend align-self-center">
-		                    <a className="btn btn-sm" id="plus-btn"><i className="fa fa-plus" /></a>
-		                  </div>
-		                </div>
-		                <div className="add-to-cart-style">
-		                  <a href="#"><i className="icon-add-to-cat" /> Add to cart</a>
-		                </div>
-		              </div> */}
 		            </div>
 		          </div>
 		        </div>

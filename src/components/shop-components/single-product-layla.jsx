@@ -130,7 +130,7 @@ export default function SingleProduct() {
 								<div class="so-tab-content 1">
 									<p>
 										<p data-mce-fragment="1">
-											<strong>Mùi hương</strong>: Đào tươi và trà đen
+											Mùi hương: Đào tươi và trà đen
 										</p>
 									</p>
 								</div>
@@ -141,10 +141,10 @@ export default function SingleProduct() {
 								<div class="so-tab-content 2">
 									<p>
 										<p data-mce-fragment="2">
-											<strong>Trọng lượng</strong>: 60oz
+											Trọng lượng: 60oz
 										</p>
-										<p><strong>Chất liệu</strong>:Sáp dừa 100% thiên nhiên</p>
-										<p><strong>Giờ đốt tối thiểu</strong>: 30 giờ</p>
+										<p>Sáp dừa 100% thiên nhiên</p>
+										<p>Giờ đốt tối thiểu: 30 giờ</p>
 										<p>Tinh dầu nhập khẩu</p>
 									</p>
 								</div>
@@ -154,7 +154,7 @@ export default function SingleProduct() {
 								<label for="so-tab-3">CANDLE ETIQUETTE</label>
 								<div class="so-tab-content 3">
 									<p>
-										Mỗi lần đốt khoảng 2-3 tiếng  để  sáp tan đều. Hãy  chắc chắn để cắt bấc sau mỗi lần sử dụng.
+										Mỗi lần đốt khoảng 2-3 tiếng để sáp tan đều. Hãy chắc chắn cắt bấc sau mỗi lần sử dụng.
 									</p>
 								</div>
 							</div>
