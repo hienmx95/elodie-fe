@@ -23,8 +23,8 @@ class LatestCollectionSlider extends Component {
               </div>
               <div className="col-md-6 align-self-center text-center">
                 <div className="content">
-                  <h6>WELCOME TO ÉLODIE HOME</h6>
-                  <h3>TRUE SELF EVOVES</h3>
+                  <h6>WELCOME TO ÉLODIE'S HOME</h6>
+                  <h3>TRUE SELF EVOLVES</h3>
                   <p>Music can touch, scent brings memories and you shine as a candle light. Élodie Chandelle wish to come and share with you all the meaningful moments in live.</p>
                   <ul>
                     <li><a href="#"><i className="fa fa-star" /></a></li>

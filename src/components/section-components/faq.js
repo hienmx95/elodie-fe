@@ -81,9 +81,9 @@ class Faq extends Component {
 		              <div id="collapseFour" className="collapse" aria-labelledby="headingFour" data-parent="#accordionExample1">
 		                <div className="card-body">
 		                  <p>Trong trường hợp Khách hàng có ý kiến đóng góp/khiếu nại liên quan đến chất lượng sản phẩm, hãy liên hệ ngay với chúng mình nhé!</p>
-						  <p>Đường dây chăm sóc khách hàng: <strong>0986279928 - 0969781710</strong></p>
-						  <a href="#">Facebook | </a>
-						  <a href="#">Instagram </a>
+						  <p>Đường dây chăm sóc khách hàng: <strong>0967196448</strong></p>
+						  <a href="https://www.facebook.com/elodiechandelle.home">Facebook | </a>
+						  <a href="https://www.instagram.com/elodie.chandelle/">Instagram </a>
 		                </div>
 		              </div>
 		            </div>

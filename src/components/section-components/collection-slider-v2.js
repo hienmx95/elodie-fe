@@ -18,7 +18,7 @@ class CollectionSlider extends Component {
               <div className="col-lg-12">
                 <div className="collection-style-04 margin-top-30">
                   <div className="thumb">
-                    <img src={publicUrl+"assets/img/collection/leyla.JPG"} alt="" />
+                    <Link to="/product/leyla"><img src={publicUrl+"assets/img/collection/leyla.JPG"} alt="" /></Link>
                   </div>
                   <div className="content">
                     <h3>Leyla</h3>
